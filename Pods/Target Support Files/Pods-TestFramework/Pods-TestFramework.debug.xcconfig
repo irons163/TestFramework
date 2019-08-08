@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IRCollectionTableViewModel" "${PODS_CONFIGURATION_BUILD_DIR}/IRCommonTools" "${PODS_CONFIGURATION_BUILD_DIR}/IRDataPicker" "${PODS_CONFIGURATION_BUILD_DIR}/IRPopupMenu" "${PODS_CONFIGURATION_BUILD_DIR}/IRSingleButtonGroup"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IRCommonTools/IRCommonTools.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IRDataPicker/IRDataPicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IRPopupMenu/IRPopupMenu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IRSingleButtonGroup/IRSingleButtonGroup.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "IRCollectionTableViewModel" -framework "IRCommonTools" -framework "IRDataPicker" -framework "IRPopupMenu" -framework "IRSingleButtonGroup"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vec-on-cmm">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="z1n-fA-aKv">
+            <objects>
+                <navigationController id="Vec-on-cmm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eL7-gS-GDL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nSb-42-zOE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c44-xS-SiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1523" y="-25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSz-cd-NY4">
+                                <rect key="frame" x="138" y="138" width="138" height="30"/>
+                                <state key="normal" title="Single Button Group"/>
+                                <connections>
+                                    <action selector="singleButtonGroupButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KrZ-qD-Ezc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCv-ul-l7c">
+                                <rect key="frame" x="163.5" y="218" width="87" height="30"/>
+                                <state key="normal" title="Popup Menu"/>
+                                <connections>
+                                    <action selector="PopupMenuViewButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldw-Xx-GU0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFx-IG-eFZ">
+                                <rect key="frame" x="167.5" y="298" width="79" height="30"/>
+                                <state key="normal" title="Data Picker"/>
+                                <connections>
+                                    <action selector="dataPickerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMt-jt-DWZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-OU-mDc">
+                                <rect key="frame" x="162" y="378" width="90" height="30"/>
+                                <state key="normal" title="Tabbed Page"/>
+                                <connections>
+                                    <action selector="tabbedPageButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zan-Bw-pA2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlI-pz-5pJ">
+                                <rect key="frame" x="98" y="458" width="218" height="30"/>
+                                <state key="normal" title="CollectionTableViewModel Page"/>
+                                <connections>
+                                    <action selector="collectionTableViewModelButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5i-qs-03W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZlI-pz-5pJ" firstAttribute="top" secondItem="hmr-OU-mDc" secondAttribute="bottom" constant="50" id="8dJ-sQ-FHS"/>
+                            <constraint firstItem="VCv-ul-l7c" firstAttribute="top" secondItem="fSz-cd-NY4" secondAttribute="bottom" constant="50" id="941-gU-lD4"/>
+                            <constraint firstItem="fSz-cd-NY4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="W5a-bi-5we"/>
+                            <constraint firstItem="fSz-cd-NY4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abB-Ro-eAw"/>
+                            <constraint firstItem="UFx-IG-eFZ" firstAttribute="top" secondItem="VCv-ul-l7c" secondAttribute="bottom" constant="50" id="hUR-xU-jwx"/>
+                            <constraint firstItem="VCv-ul-l7c" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nRp-B9-VEJ"/>
+                            <constraint firstItem="ZlI-pz-5pJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pqA-LG-Ix1"/>
+                            <constraint firstItem="UFx-IG-eFZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qrN-P5-uVd"/>
+                            <constraint firstItem="hmr-OU-mDc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="t0E-9e-L9E"/>
+                            <constraint firstItem="hmr-OU-mDc" firstAttribute="top" secondItem="UFx-IG-eFZ" secondAttribute="bottom" constant="50" id="zDc-H1-yeo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gFW-I8-h9e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-526" y="-25"/>
+        </scene>
+    </scenes>
+</document>

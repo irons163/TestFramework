@@ -1,0 +1,32 @@
+PODS:
+  - IRCollectionTableViewModel (1.0.0)
+  - IRCommonTools (1.0.0)
+  - IRDataPicker (1.0.0)
+  - IRPopupMenu (1.0.0)
+  - IRSingleButtonGroup (1.0.0)
+
+DEPENDENCIES:
+  - IRCollectionTableViewModel
+  - IRCommonTools
+  - IRDataPicker
+  - IRPopupMenu
+  - IRSingleButtonGroup
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IRCollectionTableViewModel
+    - IRCommonTools
+    - IRDataPicker
+    - IRPopupMenu
+    - IRSingleButtonGroup
+
+SPEC CHECKSUMS:
+  IRCollectionTableViewModel: 9e3d5f0e7b434d54f3665ae9329a37b32107bc67
+  IRCommonTools: 8981dddc776a381c2b8758a015ec4b1896f92076
+  IRDataPicker: 34474d6a852a91b91fdc1bde88f23a2ccd104807
+  IRPopupMenu: ced9b5906c6ac3d3a57d88e629ae2a65966ebb40
+  IRSingleButtonGroup: a688e6fede7296b87f505b56d7e9b877ade006e6
+
+PODFILE CHECKSUM: 066011ed8fa6b1d0476475beb8f4341673cb5dd9
+
+COCOAPODS: 1.7.1

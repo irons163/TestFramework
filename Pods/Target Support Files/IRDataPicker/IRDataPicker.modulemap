@@ -1,0 +1,6 @@
+framework module IRDataPicker {
+  umbrella header "IRDataPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

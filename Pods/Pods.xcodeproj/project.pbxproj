@@ -1,0 +1,1755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012A8247204E35E7B230D1A6059551B2 /* IRDataPicker+TimeAndSecond.h in Headers */ = {isa = PBXBuildFile; fileRef = 309F7D097215B9F1DCB1E4B13DA45B57 /* IRDataPicker+TimeAndSecond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060C8D12914014F7B25B7881AFA3F86D /* IREnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = E9ED801B2634A5DBE62D476C36BB7943 /* IREnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D4308C34FD742796BEE685DD2731543 /* SectionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC54F550CA691E8B67EF9DB803616D0 /* SectionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9A68397A0C107E51AE015CEC6C8E7F /* IRPickerColumnCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6545E1A47B6708E132451A949201D2CB /* IRPickerColumnCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFDFBDD7D27C293914A802DCE6ABE95 /* IRCollectionTableViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E65A9B21DE7B95F9D664C785706E82 /* IRCollectionTableViewModel-dummy.m */; };
+		1169BEB404DF706F9F5D2B10AC2E7D59 /* IRDataPicker+Year.m in Sources */ = {isa = PBXBuildFile; fileRef = 352899B57B46A3081FC49C283C6E037D /* IRDataPicker+Year.m */; };
+		11A674E4FFA3522D6CB779EB6483F8DA /* IRDataPicker+TimeAndSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D882CE61BE06274FE00EA11ABA4542B /* IRDataPicker+TimeAndSecond.m */; };
+		11C38081931C531E31B32BDD045CA644 /* IRPopupMenuImp.h in Headers */ = {isa = PBXBuildFile; fileRef = C5970039206BB9BFB974A4F5778EF8F5 /* IRPopupMenuImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CCA6566231103C62CB1E2909EA8AD8 /* IRDataPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F83F1B71CE8C8A72F91A5A38A2F7AFC /* IRDataPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145B6D5E4319C49848CB139EF89489E5 /* TableViewBasicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB63711E00DD6C7C951D3112236CA2 /* TableViewBasicViewModel.m */; };
+		15E7FBE52ADA6EBFBE9C6FDDF75E4120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		173C5B6B48EAF2A6A4A98E260F766C91 /* IRDataPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E13D9202472DC0CACF1168A0D8FBFC /* IRDataPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E02180BAFA82E25E0E5F000204DAA2 /* IRDataPicker+MonthDayHourMinuteSecond.h in Headers */ = {isa = PBXBuildFile; fileRef = 794550D734E14AB7BCF5B439B860DCFC /* IRDataPicker+MonthDayHourMinuteSecond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB5E595305698A37A535C1AFE3AA50D /* IRDataPickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C746CB720DF8DE5CCAD8B8F7D62CEDEC /* IRDataPickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAB0A9BC340A39F360FE46978FF11E2 /* IRDataPicker+Year.h in Headers */ = {isa = PBXBuildFile; fileRef = 98388DB44124CADCE1402CEAC3B17677 /* IRDataPicker+Year.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7C256FCF9A2B18478D11AEB888C55A /* IRDataPicker+DateAndTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 175AB62FAE0EEEA26426512154283B1F /* IRDataPicker+DateAndTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21787DC18F0E73137BD856AB53F55861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		217A52D3796C3B74170BDC48CCC52CDD /* IRPickerColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D8F92FF4F92AAA18AFAB12C45E0CC0 /* IRPickerColumnCell.m */; };
+		22561CC3633985EE24B43D3B9EE3FC94 /* IRDataPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE965202E1007252FDAD52889D9F00E /* IRDataPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DB5C59A07C78DE4E6028E2EC8DECF6 /* IRDataPickerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E75A4C374C5D1DCB240D64326771CCB /* IRDataPickerBundle.bundle */; };
+		25661AC84F7490E8967555694956FD7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		269D4A5EAE580641481EA36BA992C775 /* IRPickerTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D426D3BB29388E9CBCB3D32302BE4E /* IRPickerTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE145AED6C67BD3F1CCBF811C08120B /* Pods-TestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD8EF24FF1A8360E62CE9BFF78F1F5F /* Pods-TestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD3D01203EAE5BBCF4F5697BFCC1AFC /* NSDate+IRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA8D2E2989FD7D069AB5DCF02584047 /* NSDate+IRCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA192F532024AAFD4608F0A196996F0 /* IRPopupMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = D197844DB7D6168C9885163360909500 /* IRPopupMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30397818BEFD3C9948B3FABC5A0D33FD /* IRPickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8ED459421E92469FF8E3985EA3DC0 /* IRPickerTableView.m */; };
+		3261C7068AE56AA04C5EB3ED16590951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3388828D7150183003B9AE4BCAA7F049 /* IRSingleButtonGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B7CEF3A86622245EEA2128ECE72B37 /* IRSingleButtonGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38DC1C6334D6E07F6BABE46822C5A4A1 /* IRDataPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD37CD1575598F5C0DED82989BBAA5FC /* IRDataPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE8A519F025F772CEB7CD7BE254746E /* IRDataPicker+DateHour.h in Headers */ = {isa = PBXBuildFile; fileRef = 235DEFFE1165B4F545A9AD6CB0E293F4 /* IRDataPicker+DateHour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D44AF199E32D03E88A82F64A7F0E644 /* UIColor+IRHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E40C6D17D65750FEDF8B0DD5FEAF3 /* UIColor+IRHex.m */; };
+		41FB3294A6F298E0F4C0F6DC911C997F /* IRDataPicker+YearAndMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = FE234184903BA720D78C8D146E9043CA /* IRDataPicker+YearAndMonth.m */; };
+		43997C525E65EBF5BA264B90956C3738 /* IRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 128CF0DF8E47CA91A98DD9960A358255 /* IRPickerView.m */; };
+		463C632228E4DD7EABC6E422662E5644 /* IRCommonToolsImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 595B39FAD8137BC6B1CEDAE839A749C2 /* IRCommonToolsImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B31378379FC13F36A30D2004AE5CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		50FF750CE5FE0BF2EEC02382F0ADB2F5 /* TableViewBasicViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A7D02FF87F60441674755D1A5221EF /* TableViewBasicViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AD6E4A8EC746632FC9671CCD3A1C55 /* IRDataPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9875021851E149334C7D07F932221C92 /* IRDataPicker-dummy.m */; };
+		55D0004F4EA7CC21EEF7BA1C568DC060 /* IRDataPicker+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = F09A7ADA2D426CC843D3B78E2D3A698F /* IRDataPicker+Date.m */; };
+		59AE93861165F3237CFD08A56DC4CC9B /* RowType.h in Headers */ = {isa = PBXBuildFile; fileRef = C051E6094E94251DBDB5E64AA39DD58B /* RowType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C123AC2A468A0B6FAFC33EEF77FB0D1 /* IRDataPicker+DateHourMinute.h in Headers */ = {isa = PBXBuildFile; fileRef = 80149CDEA6E1DFDA0FB3A5B7AE08ECA9 /* IRDataPicker+DateHourMinute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62B8A8893F700DDEF7F13CFB7634ADA3 /* IRSingleButtonGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49869B41F66DFE65FA16666CEAF94A59 /* IRSingleButtonGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C693156C8CC14E7F0DDA261CA1576E /* IRDataPicker+Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B2EA8DE0ADE65CD9E968A1CE015D05 /* IRDataPicker+Logic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		641C8983489C3409DB7EB7C96D046E66 /* IRCollectionTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B269AD9BC75CB4E5559CFA0A9EC12A /* IRCollectionTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648FD935940169FDD8B5228813875199 /* IRDataPicker+MinuteAndSecond.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF414C115178C4724041FC81ED78389 /* IRDataPicker+MinuteAndSecond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6497E238365A958776F2BE2AB6D851F8 /* IRDataPicker+MonthDayHourMinute.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2F74B27FC3F5E5524257EDF8AF8C2A /* IRDataPicker+MonthDayHourMinute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65BE88641C8E89ABAD6C0F3FE34586D2 /* NSCalendar+IRCurrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FA7D736972196A364A201DB602B2A /* NSCalendar+IRCurrent.m */; };
+		666595A28486E4683671AF3F7C41674B /* IRCommonToolsImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 729215DD1F9D6F20CC3DCD280A31F677 /* IRCommonToolsImp.m */; };
+		6880CED599E1040DA78C9881705D4277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69ECB38A7F6C90AA1A888A35A4D06B05 /* IRPopupMenuPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4345E287F9D4633C00616491DD14B3 /* IRPopupMenuPath.m */; };
+		6AF3165BBF7C196CB276D122EA885686 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0B0C4501BC40110B2FB60263D1201C /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70754A72B3B72DAF231A6048305D280E /* IRDataPicker+Time.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3C3AD01E3438C93CFEED336506FFE3 /* IRDataPicker+Time.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7172CE95CFAD5B03A61D340DA7F65AEC /* SectionModelItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4704203D91A04D0B61842EB62C9954D1 /* SectionModelItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C2B60EC31F3A276D2BB7EDFBAEE142 /* IRSingleButtonGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45221DD857C8F08637E9104CC9DD087 /* IRSingleButtonGroup-dummy.m */; };
+		755BB7D993F30DD0C8DCDE65A39C54DE /* NSBundle+IRDataPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355178A5EBECF7EA6E790899BE81690 /* NSBundle+IRDataPicker.m */; };
+		757B9E8E4ED6C62D63FED25C31F36599 /* IRCommonTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3825DF2187413CA0A65D51118B4653C5 /* IRCommonTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C7A16AAC8EB80D220B692E35FEB20C /* SectionBasicModelItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D992F1EE02EC2C8DEF9845077C2A2A4A /* SectionBasicModelItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B380CE49B0068EC685989F5BF013AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1306D988E180554262AEFA224DE623CA /* Localizable.strings */; };
+		7B43CDA80D4571BCF2656E6DF7181D2A /* IRCollectionTableViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AC834C516ECC42BB5142A530996306 /* IRCollectionTableViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81373B16396A5389CEAE655582E76275 /* IRDataPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C533EAFC3F7B19986415E6A30ECB2F05 /* IRDataPickerView.m */; };
+		82ACCD1E631B75719462CE9A32281068 /* IRDataPicker+MonthDayHour.h in Headers */ = {isa = PBXBuildFile; fileRef = A11E7BC41B33211B6D4B298A6C131F4B /* IRDataPicker+MonthDayHour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		884BD41ECFE38ABB1E3A4AFB31C6E0B5 /* IRDataPicker+DateHour.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF2C729B43117B06B78278D4C5F1CA5 /* IRDataPicker+DateHour.m */; };
+		8F390073065994888BF90ED32C636C98 /* IRDataPicker+DateHourMinuteSecond.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BDFCFAF31001A605EA3D51A7E38883 /* IRDataPicker+DateHourMinuteSecond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D0E33DF67E913C2A9580A235F7F8CA /* IRDataPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85C247786B58FCAF70D0C20DE64AD2 /* IRDataPickerManager.m */; };
+		93E826E25CDCCEC1938F3AD620E2E4FE /* IRDataPicker+MonthDayHour.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9EED814B2EA85E01B532AA22CAC4CB /* IRDataPicker+MonthDayHour.m */; };
+		9CDBC046D407F72F46A6240E01219544 /* IRPopupMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE0E44646590BA326EAF39EF8B7F48 /* IRPopupMenu-dummy.m */; };
+		9DFD82252FDAC5B4EBB2A0059C8C0535 /* IRSingleButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E257150EB19D71B46B431DBB40D6E8E3 /* IRSingleButtonGroup.m */; };
+		A0457230FE56E49AA6D880BD5061FEDA /* IRDataPickerManagerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F3FE5945F4B9FD4C30503530822344 /* IRDataPickerManagerHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16DF85CD52A58FD7A862AF955251674 /* IRDataPicker+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70A14A55C5C8F2CCCA6517A4A7108A /* IRDataPicker+Time.m */; };
+		A25979773795AFB0B60982F7FC61AA7F /* IRRectConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 950B28126FE3B4136DE07C4F8E7ACBC0 /* IRRectConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F86155F4C6B53AC15376DD2A5D015A /* NSDate+IRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32084F484F7E619A90D5EE46B71BE2C6 /* NSDate+IRCategory.m */; };
+		A50275ACBFA689DB6BAFF6410E3E77D6 /* IRPopupMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF683D2D84506F4B90FD93F35CEBEE29 /* IRPopupMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76E731163E88FECE0F9CFA50FC735DB /* UIColor+IRHex.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB573D858C52535B4A179E97AAD9E3 /* UIColor+IRHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABAC376400F71FC2E5881F8C8894A30F /* IRDataPickerManagerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA2CEBAD9513A1E44C17A7A1A777B7 /* IRDataPickerManagerHeaderView.m */; };
+		B3DF62CF67A123191064550DCC08583B /* IRDataPicker+MonthDay.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7798CF8E1BF3E08042755D6BA518CF /* IRDataPicker+MonthDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4293FE42BC7E3A2FF09EF1EF2479802 /* IRPickerColumnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B8A812611F9A5C8FACD96CF4BD853E /* IRPickerColumnView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B64A1D8BA541EBF0342D48573441C4C3 /* IRDataPicker+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCAB1AE2EF69A0FA695208138442911 /* IRDataPicker+Common.m */; };
+		BA99544E9E37CBA90F58118FED4887BE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B58CD8113C40FD3E5240E523EE4898 /* Reachability.m */; };
+		BCFB677DD19DEC06992857FBEFCB44C6 /* RowBasicModelItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 53602CABFD4C0553F9B9271F1BA7E08E /* RowBasicModelItem+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0897BA98C8DC7F848F12757C47753E4 /* IRDataPicker+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = 8175A7596E9B23F47E5FA8F0E5F0A94E /* IRDataPicker+Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94E87BD218444FB5AE3172DDB840B13 /* IRDataPicker+DateHourMinute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2451D796AF7D8C444ECC7BECEC6C2D /* IRDataPicker+DateHourMinute.m */; };
+		CA3D47126DC812F44184AA7CD7E67501 /* IRPickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A493DEE8CC18E14E436885CC9AA29CF /* IRPickerColumnView.m */; };
+		CDC36F708A5B0EC593A69C6AAD8A553D /* IRDataPicker+Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0F756124BB2F9653150BE1D6A8955 /* IRDataPicker+Logic.m */; };
+		D360141B97BDDA617493151583E13AE9 /* IRDataPicker+MonthDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8134C3D672F9FDCD9A76776D7E5FF6E8 /* IRDataPicker+MonthDay.m */; };
+		D46C1C9683F04627D7D1C7B1246073DE /* IRDataPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D203201F3CB8611C68D4072025FD8D0 /* IRDataPicker.m */; };
+		D6FB618FF17A8A95320E98221E267399 /* IRDataPicker+MonthDayHourMinuteSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ED04BA84BA6A27774A3E0A044363D9 /* IRDataPicker+MonthDayHourMinuteSecond.m */; };
+		D7ACDFA89607F0A6E163AE1E0AD4A612 /* NSCalendar+IRCurrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 162E37D24128C0C1486234885A7A9C4A /* NSCalendar+IRCurrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BF9D2E554CF5AB089BA823E55C5FD9 /* IRDataPicker+MinuteAndSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B61F60FD28151BB067ABDCD714F8B89 /* IRDataPicker+MinuteAndSecond.m */; };
+		DA193D33CBAC1171FC41F35D55A2094C /* IRDataPicker+DateAndTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9746D796DE0958591EC9D25088F28 /* IRDataPicker+DateAndTime.m */; };
+		DEC95BF66519FBE24A545198EF264FF8 /* IRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CFD38C5FB0F12F3206EAC4AC4B98FA /* IRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0854D1ECB9A548CF0F69F32CD9729D0 /* RowBasicModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D379C2CADF3A8F018964628209A6139 /* RowBasicModelItem.m */; };
+		E398702BFD6AF25F1C2055DF6DDD61F8 /* IRDataPicker+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3250113B8B1542B5B28427B4A0C10374 /* IRDataPicker+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E524D055C2BF925C8DF50D99BED4CA94 /* IRDataPicker+DateHourMinuteSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D32BC15BB01BE7D2A6237AC5857E4 /* IRDataPicker+DateHourMinuteSecond.m */; };
+		E8E8D2EB34EC44412CED14DC650DEA86 /* IRDataPicker+YearAndMonth.h in Headers */ = {isa = PBXBuildFile; fileRef = DB67257F75BD58FD1D8929CDC3E0D97B /* IRDataPicker+YearAndMonth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A5EA45BD5E17B996018E77E88825AD /* NSBundle+IRDataPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F91C695E9001D5BAF21B53CDDC0DDA2 /* NSBundle+IRDataPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4F5AD3DF731990D4A2DA71EFB1748C /* IRPopupMenuPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F2722440F9F07DEFE30B2342209F2C44 /* IRPopupMenuPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD66DC2B8B0BDB643DFCDA6412B069F /* IRPopupMenuImp.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2AF9CC648AC9174F449F5B7357E8B1 /* IRPopupMenuImp.m */; };
+		F494C1BE218A50C4453C72E3058C56E3 /* SectionBasicModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C399FA014CE5A18294955608695A8A /* SectionBasicModelItem.m */; };
+		F5209E05DDF234F5C1A6542CD2DB5AF7 /* IRRectConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C643BBB55F26CB596B1C476B1DF7E /* IRRectConst.m */; };
+		FA66E3638721206490C41027704D32AA /* IRCommonTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7144F0BC9201C03141144E00D12E4FFA /* IRCommonTools-dummy.m */; };
+		FC8F9013348044258C7E85D96F86C792 /* Pods-TestFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AADA68E5BB5B391088B2716EDEB8D /* Pods-TestFramework-dummy.m */; };
+		FCBB0B2785AB26636941D4E988D775AC /* RowBasicModelItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9884F1E168F9F7B716D4FA46D64C5E /* RowBasicModelItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBD5E76397673B921F012527D44CC20 /* IRDataPicker+MonthDayHourMinute.m in Sources */ = {isa = PBXBuildFile; fileRef = 38835C8886CF8CCD24A4090F4BD9FE51 /* IRDataPicker+MonthDayHourMinute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7ED08594C0B971270C6BC54C8B716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497EDA97C69BFDB04A1C57972A77D334;
+			remoteInfo = IRSingleButtonGroup;
+		};
+		319D1939F8C642A889E5BB5B1DBA9931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5890749780A54DA2C10E0C5429E1C3C5;
+			remoteInfo = "IRDataPicker-IRDataPickerBundle";
+		};
+		52CA6BE8A55DBA79A271F0AD646BFE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4FEF37E216F002E53CDFA16163735D;
+			remoteInfo = IRDataPicker;
+		};
+		6EA8E05E1C2C513DC469E9318BB3843B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B590DA6DE1597E288B5653F5BB7F5D9B;
+			remoteInfo = IRPopupMenu;
+		};
+		E4C4EE0C5F4E74131C1FF9406D1D5645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E637B848B855F09AE31FD54F3131EEE4;
+			remoteInfo = IRCollectionTableViewModel;
+		};
+		FFF8F39F70083141C5857FC684E9530F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CAC6535C02D69510722B74C0576447;
+			remoteInfo = IRCommonTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EA4E9A664B7F00FDF83F5FD9DF15E7 /* ResourceBundle-IRDataPickerBundle-IRDataPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IRDataPickerBundle-IRDataPicker-Info.plist"; sourceTree = "<group>"; };
+		04FC81BC3E6F94BB3D5960FA9905FA77 /* IRPopupMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRPopupMenu.modulemap; sourceTree = "<group>"; };
+		052C643BBB55F26CB596B1C476B1DF7E /* IRRectConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRRectConst.m; path = IRPopupMenu/Class/IRRectConst.m; sourceTree = "<group>"; };
+		09C399FA014CE5A18294955608695A8A /* SectionBasicModelItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SectionBasicModelItem.m; path = IRCollectionTableViewModel/Class/SectionBasicModelItem.m; sourceTree = "<group>"; };
+		0AB8ED459421E92469FF8E3985EA3DC0 /* IRPickerTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPickerTableView.m; path = IRDataPicker/Class/PickerView/IRPickerTableView.m; sourceTree = "<group>"; };
+		0BEE5D5C10FB2D0AA1DBB0FDA964E940 /* IRCommonTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRCommonTools.framework; path = IRCommonTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128CF0DF8E47CA91A98DD9960A358255 /* IRPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPickerView.m; path = IRDataPicker/Class/PickerView/IRPickerView.m; sourceTree = "<group>"; };
+		14B2EA8DE0ADE65CD9E968A1CE015D05 /* IRDataPicker+Logic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+Logic.h"; path = "IRDataPicker/Class/IRDataPicker+Logic.h"; sourceTree = "<group>"; };
+		14E13D9202472DC0CACF1168A0D8FBFC /* IRDataPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRDataPickerView.h; path = IRDataPicker/Class/IRDataPickerView.h; sourceTree = "<group>"; };
+		162E37D24128C0C1486234885A7A9C4A /* NSCalendar+IRCurrent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+IRCurrent.h"; path = "IRDataPicker/Class/NSCalendar+IRCurrent.h"; sourceTree = "<group>"; };
+		175AB62FAE0EEEA26426512154283B1F /* IRDataPicker+DateAndTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+DateAndTime.h"; path = "IRDataPicker/Class/IRDataPicker+DateAndTime.h"; sourceTree = "<group>"; };
+		19B29F9BA6525702D5E1748E96A44626 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A493DEE8CC18E14E436885CC9AA29CF /* IRPickerColumnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPickerColumnView.m; path = IRDataPicker/Class/PickerView/IRPickerColumnView.m; sourceTree = "<group>"; };
+		1BD8EF24FF1A8360E62CE9BFF78F1F5F /* Pods-TestFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestFramework-umbrella.h"; sourceTree = "<group>"; };
+		1BF9B10219ECC1587687E782076E8394 /* IRPopupMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRPopupMenu-prefix.pch"; sourceTree = "<group>"; };
+		1D70A14A55C5C8F2CCCA6517A4A7108A /* IRDataPicker+Time.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+Time.m"; path = "IRDataPicker/Class/IRDataPicker+Time.m"; sourceTree = "<group>"; };
+		21D8F92FF4F92AAA18AFAB12C45E0CC0 /* IRPickerColumnCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPickerColumnCell.m; path = IRDataPicker/Class/PickerView/IRPickerColumnCell.m; sourceTree = "<group>"; };
+		22AC834C516ECC42BB5142A530996306 /* IRCollectionTableViewModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRCollectionTableViewModel-umbrella.h"; sourceTree = "<group>"; };
+		22FE7C6FC62841FBE0E075C092915BF1 /* Pods-TestFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		235DEFFE1165B4F545A9AD6CB0E293F4 /* IRDataPicker+DateHour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+DateHour.h"; path = "IRDataPicker/Class/IRDataPicker+DateHour.h"; sourceTree = "<group>"; };
+		28F9746D796DE0958591EC9D25088F28 /* IRDataPicker+DateAndTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+DateAndTime.m"; path = "IRDataPicker/Class/IRDataPicker+DateAndTime.m"; sourceTree = "<group>"; };
+		309F7D097215B9F1DCB1E4B13DA45B57 /* IRDataPicker+TimeAndSecond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+TimeAndSecond.h"; path = "IRDataPicker/Class/IRDataPicker+TimeAndSecond.h"; sourceTree = "<group>"; };
+		32084F484F7E619A90D5EE46B71BE2C6 /* NSDate+IRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+IRCategory.m"; path = "IRDataPicker/Class/NSDate+IRCategory.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3250113B8B1542B5B28427B4A0C10374 /* IRDataPicker+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+Common.h"; path = "IRDataPicker/Class/IRDataPicker+Common.h"; sourceTree = "<group>"; };
+		352899B57B46A3081FC49C283C6E037D /* IRDataPicker+Year.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+Year.m"; path = "IRDataPicker/Class/IRDataPicker+Year.m"; sourceTree = "<group>"; };
+		3825DF2187413CA0A65D51118B4653C5 /* IRCommonTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRCommonTools-umbrella.h"; sourceTree = "<group>"; };
+		38835C8886CF8CCD24A4090F4BD9FE51 /* IRDataPicker+MonthDayHourMinute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+MonthDayHourMinute.m"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHourMinute.m"; sourceTree = "<group>"; };
+		3AC54F550CA691E8B67EF9DB803616D0 /* SectionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SectionType.h; path = IRCollectionTableViewModel/Class/SectionType.h; sourceTree = "<group>"; };
+		3D203201F3CB8611C68D4072025FD8D0 /* IRDataPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRDataPicker.m; path = IRDataPicker/Class/IRDataPicker.m; sourceTree = "<group>"; };
+		3F4345E287F9D4633C00616491DD14B3 /* IRPopupMenuPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPopupMenuPath.m; path = IRPopupMenu/Class/IRPopupMenuPath.m; sourceTree = "<group>"; };
+		416AADA68E5BB5B391088B2716EDEB8D /* Pods-TestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestFramework-dummy.m"; sourceTree = "<group>"; };
+		45B8A812611F9A5C8FACD96CF4BD853E /* IRPickerColumnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPickerColumnView.h; path = IRDataPicker/Class/PickerView/IRPickerColumnView.h; sourceTree = "<group>"; };
+		45C0E56D5ECDAA040CCB28985472C33C /* Pods-TestFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFramework-frameworks.sh"; sourceTree = "<group>"; };
+		46F0F756124BB2F9653150BE1D6A8955 /* IRDataPicker+Logic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+Logic.m"; path = "IRDataPicker/Class/IRDataPicker+Logic.m"; sourceTree = "<group>"; };
+		4704203D91A04D0B61842EB62C9954D1 /* SectionModelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SectionModelItem.h; path = IRCollectionTableViewModel/Class/SectionModelItem.h; sourceTree = "<group>"; };
+		49869B41F66DFE65FA16666CEAF94A59 /* IRSingleButtonGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSingleButtonGroup-umbrella.h"; sourceTree = "<group>"; };
+		4D379C2CADF3A8F018964628209A6139 /* RowBasicModelItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RowBasicModelItem.m; path = IRCollectionTableViewModel/Class/RowBasicModelItem.m; sourceTree = "<group>"; };
+		4E7E40C6D17D65750FEDF8B0DD5FEAF3 /* UIColor+IRHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+IRHex.m"; path = "IRDataPicker/Class/UIColor+IRHex.m"; sourceTree = "<group>"; };
+		4E9884F1E168F9F7B716D4FA46D64C5E /* RowBasicModelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RowBasicModelItem.h; path = IRCollectionTableViewModel/Class/RowBasicModelItem.h; sourceTree = "<group>"; };
+		51F40685CAF6719E51617ECAF532A004 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestFramework.framework; path = "Pods-TestFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53602CABFD4C0553F9B9271F1BA7E08E /* RowBasicModelItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RowBasicModelItem+Private.h"; path = "IRCollectionTableViewModel/Class/RowBasicModelItem+Private.h"; sourceTree = "<group>"; };
+		595B39FAD8137BC6B1CEDAE839A749C2 /* IRCommonToolsImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRCommonToolsImp.h; path = IRCommonTools/Class/IRCommonToolsImp.h; sourceTree = "<group>"; };
+		5E2D32BC15BB01BE7D2A6237AC5857E4 /* IRDataPicker+DateHourMinuteSecond.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+DateHourMinuteSecond.m"; path = "IRDataPicker/Class/IRDataPicker+DateHourMinuteSecond.m"; sourceTree = "<group>"; };
+		5E435B2EBDDC9061A565D15CC605AA77 /* IRSingleButtonGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSingleButtonGroup-prefix.pch"; sourceTree = "<group>"; };
+		5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRDataPicker.xcconfig; sourceTree = "<group>"; };
+		5F91C695E9001D5BAF21B53CDDC0DDA2 /* NSBundle+IRDataPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+IRDataPicker.h"; path = "IRDataPicker/Class/NSBundle+IRDataPicker.h"; sourceTree = "<group>"; };
+		60D426D3BB29388E9CBCB3D32302BE4E /* IRPickerTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPickerTableView.h; path = IRDataPicker/Class/PickerView/IRPickerTableView.h; sourceTree = "<group>"; };
+		61D99566E388A479B878B6CC17B77153 /* Pods-TestFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestFramework.modulemap"; sourceTree = "<group>"; };
+		6355178A5EBECF7EA6E790899BE81690 /* NSBundle+IRDataPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+IRDataPicker.m"; path = "IRDataPicker/Class/NSBundle+IRDataPicker.m"; sourceTree = "<group>"; };
+		63DA2CEBAD9513A1E44C17A7A1A777B7 /* IRDataPickerManagerHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRDataPickerManagerHeaderView.m; path = IRDataPicker/Class/IRDataPickerManagerHeaderView.m; sourceTree = "<group>"; };
+		6545E1A47B6708E132451A949201D2CB /* IRPickerColumnCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPickerColumnCell.h; path = IRDataPicker/Class/PickerView/IRPickerColumnCell.h; sourceTree = "<group>"; };
+		65ED04BA84BA6A27774A3E0A044363D9 /* IRDataPicker+MonthDayHourMinuteSecond.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+MonthDayHourMinuteSecond.m"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHourMinuteSecond.m"; sourceTree = "<group>"; };
+		666FEA2524B38982DA6FA3B36DE45A0B /* IRCollectionTableViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRCollectionTableViewModel.framework; path = IRCollectionTableViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A3398FD14419A53F0FCBA6A8C52F49 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		6B61F60FD28151BB067ABDCD714F8B89 /* IRDataPicker+MinuteAndSecond.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+MinuteAndSecond.m"; path = "IRDataPicker/Class/IRDataPicker+MinuteAndSecond.m"; sourceTree = "<group>"; };
+		6D882CE61BE06274FE00EA11ABA4542B /* IRDataPicker+TimeAndSecond.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+TimeAndSecond.m"; path = "IRDataPicker/Class/IRDataPicker+TimeAndSecond.m"; sourceTree = "<group>"; };
+		6F5FA7D736972196A364A201DB602B2A /* NSCalendar+IRCurrent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+IRCurrent.m"; path = "IRDataPicker/Class/NSCalendar+IRCurrent.m"; sourceTree = "<group>"; };
+		6F77FC3EA6F6A5BDE86A47814E03CF28 /* IRSingleButtonGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRSingleButtonGroup.framework; path = IRSingleButtonGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AB4A483E8F11DC8955BEF8BCB0BAD /* Pods-TestFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFramework-Info.plist"; sourceTree = "<group>"; };
+		7144F0BC9201C03141144E00D12E4FFA /* IRCommonTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRCommonTools-dummy.m"; sourceTree = "<group>"; };
+		729215DD1F9D6F20CC3DCD280A31F677 /* IRCommonToolsImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRCommonToolsImp.m; path = IRCommonTools/Class/IRCommonToolsImp.m; sourceTree = "<group>"; };
+		740602F506BBCC4A69B94A7C418DD711 /* IRCommonTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRCommonTools-Info.plist"; sourceTree = "<group>"; };
+		771E855B4FD0BCAE20B419A0A985438C /* IRDataPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRDataPicker-Info.plist"; sourceTree = "<group>"; };
+		794550D734E14AB7BCF5B439B860DCFC /* IRDataPicker+MonthDayHourMinuteSecond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+MonthDayHourMinuteSecond.h"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHourMinuteSecond.h"; sourceTree = "<group>"; };
+		7C9DDC058CE390DBD40E5E43ACB34D51 /* IRCommonTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRCommonTools.modulemap; sourceTree = "<group>"; };
+		7EA8D2E2989FD7D069AB5DCF02584047 /* NSDate+IRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+IRCategory.h"; path = "IRDataPicker/Class/NSDate+IRCategory.h"; sourceTree = "<group>"; };
+		7F24A865915ED9802D3B9E7665B61F38 /* IRCollectionTableViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRCollectionTableViewModel-prefix.pch"; sourceTree = "<group>"; };
+		7F85C247786B58FCAF70D0C20DE64AD2 /* IRDataPickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRDataPickerManager.m; path = IRDataPicker/Class/IRDataPickerManager.m; sourceTree = "<group>"; };
+		80149CDEA6E1DFDA0FB3A5B7AE08ECA9 /* IRDataPicker+DateHourMinute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+DateHourMinute.h"; path = "IRDataPicker/Class/IRDataPicker+DateHourMinute.h"; sourceTree = "<group>"; };
+		80E65A9B21DE7B95F9D664C785706E82 /* IRCollectionTableViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRCollectionTableViewModel-dummy.m"; sourceTree = "<group>"; };
+		8134C3D672F9FDCD9A76776D7E5FF6E8 /* IRDataPicker+MonthDay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+MonthDay.m"; path = "IRDataPicker/Class/IRDataPicker+MonthDay.m"; sourceTree = "<group>"; };
+		8175A7596E9B23F47E5FA8F0E5F0A94E /* IRDataPicker+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+Date.h"; path = "IRDataPicker/Class/IRDataPicker+Date.h"; sourceTree = "<group>"; };
+		848492AF6D3C6B0BA16EAE7BA1A1B1F1 /* IRSingleButtonGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRSingleButtonGroup.modulemap; sourceTree = "<group>"; };
+		9269A1998034F18B30396D0AFE514271 /* IRPopupMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRPopupMenu.xcconfig; sourceTree = "<group>"; };
+		950B28126FE3B4136DE07C4F8E7ACBC0 /* IRRectConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRRectConst.h; path = IRPopupMenu/Class/IRRectConst.h; sourceTree = "<group>"; };
+		97A7D02FF87F60441674755D1A5221EF /* TableViewBasicViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TableViewBasicViewModel.h; path = IRCollectionTableViewModel/Class/TableViewBasicViewModel.h; sourceTree = "<group>"; };
+		98388DB44124CADCE1402CEAC3B17677 /* IRDataPicker+Year.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+Year.h"; path = "IRDataPicker/Class/IRDataPicker+Year.h"; sourceTree = "<group>"; };
+		9875021851E149334C7D07F932221C92 /* IRDataPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRDataPicker-dummy.m"; sourceTree = "<group>"; };
+		9B5AC5827EA05F5EDAAB3D3CA514886C /* IRCollectionTableViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRCollectionTableViewModel-Info.plist"; sourceTree = "<group>"; };
+		9D0B0C4501BC40110B2FB60263D1201C /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = IRCommonTools/Class/Reachability.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2451D796AF7D8C444ECC7BECEC6C2D /* IRDataPicker+DateHourMinute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+DateHourMinute.m"; path = "IRDataPicker/Class/IRDataPicker+DateHourMinute.m"; sourceTree = "<group>"; };
+		9E75A4C374C5D1DCB240D64326771CCB /* IRDataPickerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IRDataPickerBundle.bundle; path = "IRDataPicker-IRDataPickerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3C3AD01E3438C93CFEED336506FFE3 /* IRDataPicker+Time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+Time.h"; path = "IRDataPicker/Class/IRDataPicker+Time.h"; sourceTree = "<group>"; };
+		9F6EEEAC86D2F427F2193093FDC4ABC5 /* IRDataPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRDataPicker-prefix.pch"; sourceTree = "<group>"; };
+		9F83F1B71CE8C8A72F91A5A38A2F7AFC /* IRDataPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRDataPickerHeader.h; path = IRDataPicker/Class/IRDataPickerHeader.h; sourceTree = "<group>"; };
+		A11E7BC41B33211B6D4B298A6C131F4B /* IRDataPicker+MonthDayHour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+MonthDayHour.h"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHour.h"; sourceTree = "<group>"; };
+		A18CE3B12215FCD1CC4ED314DF897A93 /* IRCollectionTableViewModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRCollectionTableViewModel.modulemap; sourceTree = "<group>"; };
+		A45221DD857C8F08637E9104CC9DD087 /* IRSingleButtonGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRSingleButtonGroup-dummy.m"; sourceTree = "<group>"; };
+		A4B58CD8113C40FD3E5240E523EE4898 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = IRCommonTools/Class/Reachability.m; sourceTree = "<group>"; };
+		AB2AF9CC648AC9174F449F5B7357E8B1 /* IRPopupMenuImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRPopupMenuImp.m; path = IRPopupMenu/Class/IRPopupMenuImp.m; sourceTree = "<group>"; };
+		ACB38C95059BB84BAFD9CED7785C5731 /* IRSingleButtonGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRSingleButtonGroup.xcconfig; sourceTree = "<group>"; };
+		AD429CC66F921335AD26F91322B82004 /* IRPopupMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRPopupMenu.framework; path = IRPopupMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF683D2D84506F4B90FD93F35CEBEE29 /* IRPopupMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRPopupMenu-umbrella.h"; sourceTree = "<group>"; };
+		B69B618090292DCF9B099E5383D662A5 /* Pods-TestFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6B7CEF3A86622245EEA2128ECE72B37 /* IRSingleButtonGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRSingleButtonGroup.h; path = IRSingleButtonGroup/Class/IRSingleButtonGroup.h; sourceTree = "<group>"; };
+		B6CB63711E00DD6C7C951D3112236CA2 /* TableViewBasicViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TableViewBasicViewModel.m; path = IRCollectionTableViewModel/Class/TableViewBasicViewModel.m; sourceTree = "<group>"; };
+		B72253B4C7CA37FF4AC0A4CDE22240C8 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9CBB6ED8C224819A726C0CA721C66C /* IRCommonTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRCommonTools.xcconfig; sourceTree = "<group>"; };
+		BD2F74B27FC3F5E5524257EDF8AF8C2A /* IRDataPicker+MonthDayHourMinute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+MonthDayHourMinute.h"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHourMinute.h"; sourceTree = "<group>"; };
+		C051E6094E94251DBDB5E64AA39DD58B /* RowType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RowType.h; path = IRCollectionTableViewModel/Class/RowType.h; sourceTree = "<group>"; };
+		C2BDFCFAF31001A605EA3D51A7E38883 /* IRDataPicker+DateHourMinuteSecond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+DateHourMinuteSecond.h"; path = "IRDataPicker/Class/IRDataPicker+DateHourMinuteSecond.h"; sourceTree = "<group>"; };
+		C533EAFC3F7B19986415E6A30ECB2F05 /* IRDataPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRDataPickerView.m; path = IRDataPicker/Class/IRDataPickerView.m; sourceTree = "<group>"; };
+		C5970039206BB9BFB974A4F5778EF8F5 /* IRPopupMenuImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPopupMenuImp.h; path = IRPopupMenu/Class/IRPopupMenuImp.h; sourceTree = "<group>"; };
+		C746CB720DF8DE5CCAD8B8F7D62CEDEC /* IRDataPickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRDataPickerManager.h; path = IRDataPicker/Class/IRDataPickerManager.h; sourceTree = "<group>"; };
+		C97B933EE6659949ADC1C4B7E899F595 /* IRCommonTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRCommonTools-prefix.pch"; sourceTree = "<group>"; };
+		CAF2C729B43117B06B78278D4C5F1CA5 /* IRDataPicker+DateHour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+DateHour.m"; path = "IRDataPicker/Class/IRDataPicker+DateHour.m"; sourceTree = "<group>"; };
+		D0ED7BE788A4275EAB58206C3EC7BB07 /* IRSingleButtonGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRSingleButtonGroup-Info.plist"; sourceTree = "<group>"; };
+		D197844DB7D6168C9885163360909500 /* IRPopupMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPopupMenu.h; path = IRPopupMenu/IRPopupMenu.h; sourceTree = "<group>"; };
+		D8AB573D858C52535B4A179E97AAD9E3 /* UIColor+IRHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+IRHex.h"; path = "IRDataPicker/Class/UIColor+IRHex.h"; sourceTree = "<group>"; };
+		D8CFD38C5FB0F12F3206EAC4AC4B98FA /* IRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPickerView.h; path = IRDataPicker/Class/PickerView/IRPickerView.h; sourceTree = "<group>"; };
+		D992F1EE02EC2C8DEF9845077C2A2A4A /* SectionBasicModelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SectionBasicModelItem.h; path = IRCollectionTableViewModel/Class/SectionBasicModelItem.h; sourceTree = "<group>"; };
+		DB67257F75BD58FD1D8929CDC3E0D97B /* IRDataPicker+YearAndMonth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+YearAndMonth.h"; path = "IRDataPicker/Class/IRDataPicker+YearAndMonth.h"; sourceTree = "<group>"; };
+		E0E3635A5FAF4A43F88135BCF550CE1A /* IRPopupMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRPopupMenu-Info.plist"; sourceTree = "<group>"; };
+		E1C87F36F36CC0DCCA7CDC36D6FE942D /* IRDataPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRDataPicker.modulemap; sourceTree = "<group>"; };
+		E257150EB19D71B46B431DBB40D6E8E3 /* IRSingleButtonGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRSingleButtonGroup.m; path = IRSingleButtonGroup/Class/IRSingleButtonGroup.m; sourceTree = "<group>"; };
+		E477C6DD2E9126A61FA7DD6C02BFF21E /* IRDataPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRDataPicker.framework; path = IRDataPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F3FE5945F4B9FD4C30503530822344 /* IRDataPickerManagerHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRDataPickerManagerHeaderView.h; path = IRDataPicker/Class/IRDataPickerManagerHeaderView.h; sourceTree = "<group>"; };
+		E9ED801B2634A5DBE62D476C36BB7943 /* IREnumeration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IREnumeration.h; path = IRDataPicker/Class/IREnumeration.h; sourceTree = "<group>"; };
+		EBCAB1AE2EF69A0FA695208138442911 /* IRDataPicker+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+Common.m"; path = "IRDataPicker/Class/IRDataPicker+Common.m"; sourceTree = "<group>"; };
+		EC7798CF8E1BF3E08042755D6BA518CF /* IRDataPicker+MonthDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+MonthDay.h"; path = "IRDataPicker/Class/IRDataPicker+MonthDay.h"; sourceTree = "<group>"; };
+		EDE965202E1007252FDAD52889D9F00E /* IRDataPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRDataPicker.h; path = IRDataPicker/Class/IRDataPicker.h; sourceTree = "<group>"; };
+		F09A7ADA2D426CC843D3B78E2D3A698F /* IRDataPicker+Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+Date.m"; path = "IRDataPicker/Class/IRDataPicker+Date.m"; sourceTree = "<group>"; };
+		F1FE0E44646590BA326EAF39EF8B7F48 /* IRPopupMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRPopupMenu-dummy.m"; sourceTree = "<group>"; };
+		F2722440F9F07DEFE30B2342209F2C44 /* IRPopupMenuPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPopupMenuPath.h; path = IRPopupMenu/Class/IRPopupMenuPath.h; sourceTree = "<group>"; };
+		F70DFCDAC05E9788AE2363FCBA750900 /* IRCollectionTableViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRCollectionTableViewModel.xcconfig; sourceTree = "<group>"; };
+		F9B269AD9BC75CB4E5559CFA0A9EC12A /* IRCollectionTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRCollectionTableViewModel.h; path = IRCollectionTableViewModel/IRCollectionTableViewModel.h; sourceTree = "<group>"; };
+		FCF414C115178C4724041FC81ED78389 /* IRDataPicker+MinuteAndSecond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IRDataPicker+MinuteAndSecond.h"; path = "IRDataPicker/Class/IRDataPicker+MinuteAndSecond.h"; sourceTree = "<group>"; };
+		FD37CD1575598F5C0DED82989BBAA5FC /* IRDataPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRDataPicker-umbrella.h"; sourceTree = "<group>"; };
+		FD9EED814B2EA85E01B532AA22CAC4CB /* IRDataPicker+MonthDayHour.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+MonthDayHour.m"; path = "IRDataPicker/Class/IRDataPicker+MonthDayHour.m"; sourceTree = "<group>"; };
+		FE234184903BA720D78C8D146E9043CA /* IRDataPicker+YearAndMonth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IRDataPicker+YearAndMonth.m"; path = "IRDataPicker/Class/IRDataPicker+YearAndMonth.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17CF8C50AD236D65D71FBCF4C57A2D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E7FBE52ADA6EBFBE9C6FDDF75E4120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B63C21FB8626CAA6E79B5CFEC07FF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6880CED599E1040DA78C9881705D4277 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E90CB54A31D7BA6EF3C90B69B631F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3261C7068AE56AA04C5EB3ED16590951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A2EB7812C3A22E5501F40089F8602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25661AC84F7490E8967555694956FD7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72B74129E390DD4C82D316ED1F4FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21787DC18F0E73137BD856AB53F55861 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E439D9F7B4865E3D955920F2CD47AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6A6411A1075297D90815A21FA4E665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B31378379FC13F36A30D2004AE5CFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1699EF46CD5FE7106FC867696BD18EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666FEA2524B38982DA6FA3B36DE45A0B /* IRCollectionTableViewModel.framework */,
+				0BEE5D5C10FB2D0AA1DBB0FDA964E940 /* IRCommonTools.framework */,
+				E477C6DD2E9126A61FA7DD6C02BFF21E /* IRDataPicker.framework */,
+				9E75A4C374C5D1DCB240D64326771CCB /* IRDataPickerBundle.bundle */,
+				AD429CC66F921335AD26F91322B82004 /* IRPopupMenu.framework */,
+				6F77FC3EA6F6A5BDE86A47814E03CF28 /* IRSingleButtonGroup.framework */,
+				51F40685CAF6719E51617ECAF532A004 /* Pods_TestFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1757C3EBFCEC84E3BC373E22962D22AA /* IRCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				595B39FAD8137BC6B1CEDAE839A749C2 /* IRCommonToolsImp.h */,
+				729215DD1F9D6F20CC3DCD280A31F677 /* IRCommonToolsImp.m */,
+				9D0B0C4501BC40110B2FB60263D1201C /* Reachability.h */,
+				A4B58CD8113C40FD3E5240E523EE4898 /* Reachability.m */,
+				241660A89AA3B1E910C7C1153FAE148F /* Support Files */,
+			);
+			name = IRCommonTools;
+			path = IRCommonTools;
+			sourceTree = "<group>";
+		};
+		23C0145EADDE3518B9AC87F399FF80B9 /* IRPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D197844DB7D6168C9885163360909500 /* IRPopupMenu.h */,
+				C5970039206BB9BFB974A4F5778EF8F5 /* IRPopupMenuImp.h */,
+				AB2AF9CC648AC9174F449F5B7357E8B1 /* IRPopupMenuImp.m */,
+				F2722440F9F07DEFE30B2342209F2C44 /* IRPopupMenuPath.h */,
+				3F4345E287F9D4633C00616491DD14B3 /* IRPopupMenuPath.m */,
+				950B28126FE3B4136DE07C4F8E7ACBC0 /* IRRectConst.h */,
+				052C643BBB55F26CB596B1C476B1DF7E /* IRRectConst.m */,
+				697298E116B34D614F525903ABDF34B7 /* Support Files */,
+			);
+			name = IRPopupMenu;
+			path = IRPopupMenu;
+			sourceTree = "<group>";
+		};
+		241660A89AA3B1E910C7C1153FAE148F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9DDC058CE390DBD40E5E43ACB34D51 /* IRCommonTools.modulemap */,
+				BC9CBB6ED8C224819A726C0CA721C66C /* IRCommonTools.xcconfig */,
+				7144F0BC9201C03141144E00D12E4FFA /* IRCommonTools-dummy.m */,
+				740602F506BBCC4A69B94A7C418DD711 /* IRCommonTools-Info.plist */,
+				C97B933EE6659949ADC1C4B7E899F595 /* IRCommonTools-prefix.pch */,
+				3825DF2187413CA0A65D51118B4653C5 /* IRCommonTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRCommonTools";
+			sourceTree = "<group>";
+		};
+		268AF524C0346A53D84509305E4EADB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1306D988E180554262AEFA224DE623CA /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6671105283E77F41EB2CE1B769F1C529 /* Pods-TestFramework */ = {
+			isa = PBXGroup;
+			children = (
+				61D99566E388A479B878B6CC17B77153 /* Pods-TestFramework.modulemap */,
+				22FE7C6FC62841FBE0E075C092915BF1 /* Pods-TestFramework-acknowledgements.markdown */,
+				B69B618090292DCF9B099E5383D662A5 /* Pods-TestFramework-acknowledgements.plist */,
+				416AADA68E5BB5B391088B2716EDEB8D /* Pods-TestFramework-dummy.m */,
+				45C0E56D5ECDAA040CCB28985472C33C /* Pods-TestFramework-frameworks.sh */,
+				707AB4A483E8F11DC8955BEF8BCB0BAD /* Pods-TestFramework-Info.plist */,
+				1BD8EF24FF1A8360E62CE9BFF78F1F5F /* Pods-TestFramework-umbrella.h */,
+				B72253B4C7CA37FF4AC0A4CDE22240C8 /* Pods-TestFramework.debug.xcconfig */,
+				67A3398FD14419A53F0FCBA6A8C52F49 /* Pods-TestFramework.release.xcconfig */,
+			);
+			name = "Pods-TestFramework";
+			path = "Target Support Files/Pods-TestFramework";
+			sourceTree = "<group>";
+		};
+		697298E116B34D614F525903ABDF34B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC81BC3E6F94BB3D5960FA9905FA77 /* IRPopupMenu.modulemap */,
+				9269A1998034F18B30396D0AFE514271 /* IRPopupMenu.xcconfig */,
+				F1FE0E44646590BA326EAF39EF8B7F48 /* IRPopupMenu-dummy.m */,
+				E0E3635A5FAF4A43F88135BCF550CE1A /* IRPopupMenu-Info.plist */,
+				1BF9B10219ECC1587687E782076E8394 /* IRPopupMenu-prefix.pch */,
+				AF683D2D84506F4B90FD93F35CEBEE29 /* IRPopupMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRPopupMenu";
+			sourceTree = "<group>";
+		};
+		6AC7109BBF916528433528B8984DD730 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				848492AF6D3C6B0BA16EAE7BA1A1B1F1 /* IRSingleButtonGroup.modulemap */,
+				ACB38C95059BB84BAFD9CED7785C5731 /* IRSingleButtonGroup.xcconfig */,
+				A45221DD857C8F08637E9104CC9DD087 /* IRSingleButtonGroup-dummy.m */,
+				D0ED7BE788A4275EAB58206C3EC7BB07 /* IRSingleButtonGroup-Info.plist */,
+				5E435B2EBDDC9061A565D15CC605AA77 /* IRSingleButtonGroup-prefix.pch */,
+				49869B41F66DFE65FA16666CEAF94A59 /* IRSingleButtonGroup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRSingleButtonGroup";
+			sourceTree = "<group>";
+		};
+		77E2FB660138065049F5826057F8B2C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF84D7036D44EC3A8D61F432E62BDAF /* IRCollectionTableViewModel */,
+				1757C3EBFCEC84E3BC373E22962D22AA /* IRCommonTools */,
+				FE8933360DF7652D19CFC74D8A1B1E19 /* IRDataPicker */,
+				23C0145EADDE3518B9AC87F399FF80B9 /* IRPopupMenu */,
+				C117BF66D83253F3DEF1F224059332A7 /* IRSingleButtonGroup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BC870489DCC752244AC44B9C8C207EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A18CE3B12215FCD1CC4ED314DF897A93 /* IRCollectionTableViewModel.modulemap */,
+				F70DFCDAC05E9788AE2363FCBA750900 /* IRCollectionTableViewModel.xcconfig */,
+				80E65A9B21DE7B95F9D664C785706E82 /* IRCollectionTableViewModel-dummy.m */,
+				9B5AC5827EA05F5EDAAB3D3CA514886C /* IRCollectionTableViewModel-Info.plist */,
+				7F24A865915ED9802D3B9E7665B61F38 /* IRCollectionTableViewModel-prefix.pch */,
+				22AC834C516ECC42BB5142A530996306 /* IRCollectionTableViewModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRCollectionTableViewModel";
+			sourceTree = "<group>";
+		};
+		ACF84D7036D44EC3A8D61F432E62BDAF /* IRCollectionTableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9B269AD9BC75CB4E5559CFA0A9EC12A /* IRCollectionTableViewModel.h */,
+				4E9884F1E168F9F7B716D4FA46D64C5E /* RowBasicModelItem.h */,
+				4D379C2CADF3A8F018964628209A6139 /* RowBasicModelItem.m */,
+				53602CABFD4C0553F9B9271F1BA7E08E /* RowBasicModelItem+Private.h */,
+				C051E6094E94251DBDB5E64AA39DD58B /* RowType.h */,
+				D992F1EE02EC2C8DEF9845077C2A2A4A /* SectionBasicModelItem.h */,
+				09C399FA014CE5A18294955608695A8A /* SectionBasicModelItem.m */,
+				4704203D91A04D0B61842EB62C9954D1 /* SectionModelItem.h */,
+				3AC54F550CA691E8B67EF9DB803616D0 /* SectionType.h */,
+				97A7D02FF87F60441674755D1A5221EF /* TableViewBasicViewModel.h */,
+				B6CB63711E00DD6C7C951D3112236CA2 /* TableViewBasicViewModel.m */,
+				7BC870489DCC752244AC44B9C8C207EE /* Support Files */,
+			);
+			name = IRCollectionTableViewModel;
+			path = IRCollectionTableViewModel;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C117BF66D83253F3DEF1F224059332A7 /* IRSingleButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B6B7CEF3A86622245EEA2128ECE72B37 /* IRSingleButtonGroup.h */,
+				E257150EB19D71B46B431DBB40D6E8E3 /* IRSingleButtonGroup.m */,
+				6AC7109BBF916528433528B8984DD730 /* Support Files */,
+			);
+			name = IRSingleButtonGroup;
+			path = IRSingleButtonGroup;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				77E2FB660138065049F5826057F8B2C5 /* Pods */,
+				1699EF46CD5FE7106FC867696BD18EDD /* Products */,
+				D8B08CCEDA2056683EC0641593ACF5E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B08CCEDA2056683EC0641593ACF5E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6671105283E77F41EB2CE1B769F1C529 /* Pods-TestFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC414F131A92B565FAEAC52F8E77233B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C87F36F36CC0DCCA7CDC36D6FE942D /* IRDataPicker.modulemap */,
+				5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */,
+				9875021851E149334C7D07F932221C92 /* IRDataPicker-dummy.m */,
+				771E855B4FD0BCAE20B419A0A985438C /* IRDataPicker-Info.plist */,
+				9F6EEEAC86D2F427F2193093FDC4ABC5 /* IRDataPicker-prefix.pch */,
+				FD37CD1575598F5C0DED82989BBAA5FC /* IRDataPicker-umbrella.h */,
+				00EA4E9A664B7F00FDF83F5FD9DF15E7 /* ResourceBundle-IRDataPickerBundle-IRDataPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRDataPicker";
+			sourceTree = "<group>";
+		};
+		FE8933360DF7652D19CFC74D8A1B1E19 /* IRDataPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EDE965202E1007252FDAD52889D9F00E /* IRDataPicker.h */,
+				3D203201F3CB8611C68D4072025FD8D0 /* IRDataPicker.m */,
+				3250113B8B1542B5B28427B4A0C10374 /* IRDataPicker+Common.h */,
+				EBCAB1AE2EF69A0FA695208138442911 /* IRDataPicker+Common.m */,
+				8175A7596E9B23F47E5FA8F0E5F0A94E /* IRDataPicker+Date.h */,
+				F09A7ADA2D426CC843D3B78E2D3A698F /* IRDataPicker+Date.m */,
+				175AB62FAE0EEEA26426512154283B1F /* IRDataPicker+DateAndTime.h */,
+				28F9746D796DE0958591EC9D25088F28 /* IRDataPicker+DateAndTime.m */,
+				235DEFFE1165B4F545A9AD6CB0E293F4 /* IRDataPicker+DateHour.h */,
+				CAF2C729B43117B06B78278D4C5F1CA5 /* IRDataPicker+DateHour.m */,
+				80149CDEA6E1DFDA0FB3A5B7AE08ECA9 /* IRDataPicker+DateHourMinute.h */,
+				9E2451D796AF7D8C444ECC7BECEC6C2D /* IRDataPicker+DateHourMinute.m */,
+				C2BDFCFAF31001A605EA3D51A7E38883 /* IRDataPicker+DateHourMinuteSecond.h */,
+				5E2D32BC15BB01BE7D2A6237AC5857E4 /* IRDataPicker+DateHourMinuteSecond.m */,
+				14B2EA8DE0ADE65CD9E968A1CE015D05 /* IRDataPicker+Logic.h */,
+				46F0F756124BB2F9653150BE1D6A8955 /* IRDataPicker+Logic.m */,
+				FCF414C115178C4724041FC81ED78389 /* IRDataPicker+MinuteAndSecond.h */,
+				6B61F60FD28151BB067ABDCD714F8B89 /* IRDataPicker+MinuteAndSecond.m */,
+				EC7798CF8E1BF3E08042755D6BA518CF /* IRDataPicker+MonthDay.h */,
+				8134C3D672F9FDCD9A76776D7E5FF6E8 /* IRDataPicker+MonthDay.m */,
+				A11E7BC41B33211B6D4B298A6C131F4B /* IRDataPicker+MonthDayHour.h */,
+				FD9EED814B2EA85E01B532AA22CAC4CB /* IRDataPicker+MonthDayHour.m */,
+				BD2F74B27FC3F5E5524257EDF8AF8C2A /* IRDataPicker+MonthDayHourMinute.h */,
+				38835C8886CF8CCD24A4090F4BD9FE51 /* IRDataPicker+MonthDayHourMinute.m */,
+				794550D734E14AB7BCF5B439B860DCFC /* IRDataPicker+MonthDayHourMinuteSecond.h */,
+				65ED04BA84BA6A27774A3E0A044363D9 /* IRDataPicker+MonthDayHourMinuteSecond.m */,
+				9F3C3AD01E3438C93CFEED336506FFE3 /* IRDataPicker+Time.h */,
+				1D70A14A55C5C8F2CCCA6517A4A7108A /* IRDataPicker+Time.m */,
+				309F7D097215B9F1DCB1E4B13DA45B57 /* IRDataPicker+TimeAndSecond.h */,
+				6D882CE61BE06274FE00EA11ABA4542B /* IRDataPicker+TimeAndSecond.m */,
+				98388DB44124CADCE1402CEAC3B17677 /* IRDataPicker+Year.h */,
+				352899B57B46A3081FC49C283C6E037D /* IRDataPicker+Year.m */,
+				DB67257F75BD58FD1D8929CDC3E0D97B /* IRDataPicker+YearAndMonth.h */,
+				FE234184903BA720D78C8D146E9043CA /* IRDataPicker+YearAndMonth.m */,
+				9F83F1B71CE8C8A72F91A5A38A2F7AFC /* IRDataPickerHeader.h */,
+				C746CB720DF8DE5CCAD8B8F7D62CEDEC /* IRDataPickerManager.h */,
+				7F85C247786B58FCAF70D0C20DE64AD2 /* IRDataPickerManager.m */,
+				E6F3FE5945F4B9FD4C30503530822344 /* IRDataPickerManagerHeaderView.h */,
+				63DA2CEBAD9513A1E44C17A7A1A777B7 /* IRDataPickerManagerHeaderView.m */,
+				14E13D9202472DC0CACF1168A0D8FBFC /* IRDataPickerView.h */,
+				C533EAFC3F7B19986415E6A30ECB2F05 /* IRDataPickerView.m */,
+				E9ED801B2634A5DBE62D476C36BB7943 /* IREnumeration.h */,
+				6545E1A47B6708E132451A949201D2CB /* IRPickerColumnCell.h */,
+				21D8F92FF4F92AAA18AFAB12C45E0CC0 /* IRPickerColumnCell.m */,
+				45B8A812611F9A5C8FACD96CF4BD853E /* IRPickerColumnView.h */,
+				1A493DEE8CC18E14E436885CC9AA29CF /* IRPickerColumnView.m */,
+				60D426D3BB29388E9CBCB3D32302BE4E /* IRPickerTableView.h */,
+				0AB8ED459421E92469FF8E3985EA3DC0 /* IRPickerTableView.m */,
+				D8CFD38C5FB0F12F3206EAC4AC4B98FA /* IRPickerView.h */,
+				128CF0DF8E47CA91A98DD9960A358255 /* IRPickerView.m */,
+				5F91C695E9001D5BAF21B53CDDC0DDA2 /* NSBundle+IRDataPicker.h */,
+				6355178A5EBECF7EA6E790899BE81690 /* NSBundle+IRDataPicker.m */,
+				162E37D24128C0C1486234885A7A9C4A /* NSCalendar+IRCurrent.h */,
+				6F5FA7D736972196A364A201DB602B2A /* NSCalendar+IRCurrent.m */,
+				7EA8D2E2989FD7D069AB5DCF02584047 /* NSDate+IRCategory.h */,
+				32084F484F7E619A90D5EE46B71BE2C6 /* NSDate+IRCategory.m */,
+				D8AB573D858C52535B4A179E97AAD9E3 /* UIColor+IRHex.h */,
+				4E7E40C6D17D65750FEDF8B0DD5FEAF3 /* UIColor+IRHex.m */,
+				268AF524C0346A53D84509305E4EADB2 /* Resources */,
+				EC414F131A92B565FAEAC52F8E77233B /* Support Files */,
+			);
+			name = IRDataPicker;
+			path = IRDataPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34174C3921D9E06C83392A06E9A04EE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757B9E8E4ED6C62D63FED25C31F36599 /* IRCommonTools-umbrella.h in Headers */,
+				463C632228E4DD7EABC6E422662E5644 /* IRCommonToolsImp.h in Headers */,
+				6AF3165BBF7C196CB276D122EA885686 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF16937D0ABAB3F1A26DC691DDA4F15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B8A8893F700DDEF7F13CFB7634ADA3 /* IRSingleButtonGroup-umbrella.h in Headers */,
+				3388828D7150183003B9AE4BCAA7F049 /* IRSingleButtonGroup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60082B95B9FD1EFBF094639FB8026BF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE145AED6C67BD3F1CCBF811C08120B /* Pods-TestFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C8FC85A9E68DDBCC2C554768AD1BA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50275ACBFA689DB6BAFF6410E3E77D6 /* IRPopupMenu-umbrella.h in Headers */,
+				2CA192F532024AAFD4608F0A196996F0 /* IRPopupMenu.h in Headers */,
+				11C38081931C531E31B32BDD045CA644 /* IRPopupMenuImp.h in Headers */,
+				ED4F5AD3DF731990D4A2DA71EFB1748C /* IRPopupMenuPath.h in Headers */,
+				A25979773795AFB0B60982F7FC61AA7F /* IRRectConst.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8076C7BB799844DF607B60A245CEEE7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B43CDA80D4571BCF2656E6DF7181D2A /* IRCollectionTableViewModel-umbrella.h in Headers */,
+				641C8983489C3409DB7EB7C96D046E66 /* IRCollectionTableViewModel.h in Headers */,
+				BCFB677DD19DEC06992857FBEFCB44C6 /* RowBasicModelItem+Private.h in Headers */,
+				FCBB0B2785AB26636941D4E988D775AC /* RowBasicModelItem.h in Headers */,
+				59AE93861165F3237CFD08A56DC4CC9B /* RowType.h in Headers */,
+				75C7A16AAC8EB80D220B692E35FEB20C /* SectionBasicModelItem.h in Headers */,
+				7172CE95CFAD5B03A61D340DA7F65AEC /* SectionModelItem.h in Headers */,
+				0D4308C34FD742796BEE685DD2731543 /* SectionType.h in Headers */,
+				50FF750CE5FE0BF2EEC02382F0ADB2F5 /* TableViewBasicViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB890E4871DB185C8E1977FBAFF5DA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E398702BFD6AF25F1C2055DF6DDD61F8 /* IRDataPicker+Common.h in Headers */,
+				C0897BA98C8DC7F848F12757C47753E4 /* IRDataPicker+Date.h in Headers */,
+				1F7C256FCF9A2B18478D11AEB888C55A /* IRDataPicker+DateAndTime.h in Headers */,
+				3AE8A519F025F772CEB7CD7BE254746E /* IRDataPicker+DateHour.h in Headers */,
+				5C123AC2A468A0B6FAFC33EEF77FB0D1 /* IRDataPicker+DateHourMinute.h in Headers */,
+				8F390073065994888BF90ED32C636C98 /* IRDataPicker+DateHourMinuteSecond.h in Headers */,
+				63C693156C8CC14E7F0DDA261CA1576E /* IRDataPicker+Logic.h in Headers */,
+				648FD935940169FDD8B5228813875199 /* IRDataPicker+MinuteAndSecond.h in Headers */,
+				B3DF62CF67A123191064550DCC08583B /* IRDataPicker+MonthDay.h in Headers */,
+				82ACCD1E631B75719462CE9A32281068 /* IRDataPicker+MonthDayHour.h in Headers */,
+				6497E238365A958776F2BE2AB6D851F8 /* IRDataPicker+MonthDayHourMinute.h in Headers */,
+				18E02180BAFA82E25E0E5F000204DAA2 /* IRDataPicker+MonthDayHourMinuteSecond.h in Headers */,
+				70754A72B3B72DAF231A6048305D280E /* IRDataPicker+Time.h in Headers */,
+				012A8247204E35E7B230D1A6059551B2 /* IRDataPicker+TimeAndSecond.h in Headers */,
+				1EAB0A9BC340A39F360FE46978FF11E2 /* IRDataPicker+Year.h in Headers */,
+				E8E8D2EB34EC44412CED14DC650DEA86 /* IRDataPicker+YearAndMonth.h in Headers */,
+				38DC1C6334D6E07F6BABE46822C5A4A1 /* IRDataPicker-umbrella.h in Headers */,
+				22561CC3633985EE24B43D3B9EE3FC94 /* IRDataPicker.h in Headers */,
+				13CCA6566231103C62CB1E2909EA8AD8 /* IRDataPickerHeader.h in Headers */,
+				1BB5E595305698A37A535C1AFE3AA50D /* IRDataPickerManager.h in Headers */,
+				A0457230FE56E49AA6D880BD5061FEDA /* IRDataPickerManagerHeaderView.h in Headers */,
+				173C5B6B48EAF2A6A4A98E260F766C91 /* IRDataPickerView.h in Headers */,
+				060C8D12914014F7B25B7881AFA3F86D /* IREnumeration.h in Headers */,
+				0E9A68397A0C107E51AE015CEC6C8E7F /* IRPickerColumnCell.h in Headers */,
+				B4293FE42BC7E3A2FF09EF1EF2479802 /* IRPickerColumnView.h in Headers */,
+				269D4A5EAE580641481EA36BA992C775 /* IRPickerTableView.h in Headers */,
+				DEC95BF66519FBE24A545198EF264FF8 /* IRPickerView.h in Headers */,
+				E9A5EA45BD5E17B996018E77E88825AD /* NSBundle+IRDataPicker.h in Headers */,
+				D7ACDFA89607F0A6E163AE1E0AD4A612 /* NSCalendar+IRCurrent.h in Headers */,
+				2BD3D01203EAE5BBCF4F5697BFCC1AFC /* NSDate+IRCategory.h in Headers */,
+				A76E731163E88FECE0F9CFA50FC735DB /* UIColor+IRHex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		497EDA97C69BFDB04A1C57972A77D334 /* IRSingleButtonGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FDD83FF5AD292F09AEACC972238E5E /* Build configuration list for PBXNativeTarget "IRSingleButtonGroup" */;
+			buildPhases = (
+				5EF16937D0ABAB3F1A26DC691DDA4F15 /* Headers */,
+				47D46C7030E2BF80B9DA54A8FF58F2F1 /* Sources */,
+				854A2EB7812C3A22E5501F40089F8602 /* Frameworks */,
+				2D0C88994BEFF6DA4F4F4E7D9525CE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRSingleButtonGroup;
+			productName = IRSingleButtonGroup;
+			productReference = 6F77FC3EA6F6A5BDE86A47814E03CF28 /* IRSingleButtonGroup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57CAC6535C02D69510722B74C0576447 /* IRCommonTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54DC85091ADAAAE2E19E44F9B8D18C2 /* Build configuration list for PBXNativeTarget "IRCommonTools" */;
+			buildPhases = (
+				34174C3921D9E06C83392A06E9A04EE4 /* Headers */,
+				DB607821CF49B79E98507B81B844E9E6 /* Sources */,
+				1B63C21FB8626CAA6E79B5CFEC07FF51 /* Frameworks */,
+				AD8A611C7F45909906A9AD91880F16B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRCommonTools;
+			productName = IRCommonTools;
+			productReference = 0BEE5D5C10FB2D0AA1DBB0FDA964E940 /* IRCommonTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5890749780A54DA2C10E0C5429E1C3C5 /* IRDataPicker-IRDataPickerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CD599CBE6AAFEF521AB9BE57AC89A /* Build configuration list for PBXNativeTarget "IRDataPicker-IRDataPickerBundle" */;
+			buildPhases = (
+				6F97070B56167B4CDE89992FF417C0E9 /* Sources */,
+				D6E439D9F7B4865E3D955920F2CD47AE /* Frameworks */,
+				47F2EBC4B46C3C381BA2B5DD4F1E5CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRDataPicker-IRDataPickerBundle";
+			productName = "IRDataPicker-IRDataPickerBundle";
+			productReference = 9E75A4C374C5D1DCB240D64326771CCB /* IRDataPickerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F90BDE0973CAD55DD0348D4D1F84D13 /* Pods-TestFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC0CFB226E39E8E96AB512012BF30DB /* Build configuration list for PBXNativeTarget "Pods-TestFramework" */;
+			buildPhases = (
+				60082B95B9FD1EFBF094639FB8026BF3 /* Headers */,
+				BF18D244FB1D391A79BF3E12D7910F2D /* Sources */,
+				71E90CB54A31D7BA6EF3C90B69B631F1 /* Frameworks */,
+				35AB551987B75E746769E8B8021FA9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E381AFE8FAA9EF3C680BCDEA3FD95586 /* PBXTargetDependency */,
+				55712916E3E4EE366962FBE1F2EBB5D4 /* PBXTargetDependency */,
+				F6C3CA3589AAAA86D9A67E4ACA4BE2E4 /* PBXTargetDependency */,
+				52C0C4D160C80C0CEDAA8101F46A6B24 /* PBXTargetDependency */,
+				91B6E229688B3003268715595E9C0423 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestFramework";
+			productName = "Pods-TestFramework";
+			productReference = 51F40685CAF6719E51617ECAF532A004 /* Pods_TestFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B590DA6DE1597E288B5653F5BB7F5D9B /* IRPopupMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C47E7DFA36EC0EAF1892B4866FCF4E /* Build configuration list for PBXNativeTarget "IRPopupMenu" */;
+			buildPhases = (
+				77C8FC85A9E68DDBCC2C554768AD1BA6 /* Headers */,
+				83FEF8C4BBD0AC4B8FE4B34B6EA26FCB /* Sources */,
+				DB6A6411A1075297D90815A21FA4E665 /* Frameworks */,
+				D23AEFDFF1CF0D7DC1A8E9DCA2143F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRPopupMenu;
+			productName = IRPopupMenu;
+			productReference = AD429CC66F921335AD26F91322B82004 /* IRPopupMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA4FEF37E216F002E53CDFA16163735D /* IRDataPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492052E38D183C1FC47038025E48BA37 /* Build configuration list for PBXNativeTarget "IRDataPicker" */;
+			buildPhases = (
+				DB890E4871DB185C8E1977FBAFF5DA4F /* Headers */,
+				21EB9BBB0311085A7A76BB59AAEBFBC6 /* Sources */,
+				A72B74129E390DD4C82D316ED1F4FDDC /* Frameworks */,
+				415817531901D3A84087575415593F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A3D3E60AF7501EDA8D5402C3BFCE97 /* PBXTargetDependency */,
+			);
+			name = IRDataPicker;
+			productName = IRDataPicker;
+			productReference = E477C6DD2E9126A61FA7DD6C02BFF21E /* IRDataPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E637B848B855F09AE31FD54F3131EEE4 /* IRCollectionTableViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141432DF1C550611DF16F45E1832F0A5 /* Build configuration list for PBXNativeTarget "IRCollectionTableViewModel" */;
+			buildPhases = (
+				8076C7BB799844DF607B60A245CEEE7F /* Headers */,
+				8555419D22B947AD8E3D50F96BDC3DB6 /* Sources */,
+				17CF8C50AD236D65D71FBCF4C57A2D26 /* Frameworks */,
+				1331ADF37646EC9B96EF1EBAD8FBB86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRCollectionTableViewModel;
+			productName = IRCollectionTableViewModel;
+			productReference = 666FEA2524B38982DA6FA3B36DE45A0B /* IRCollectionTableViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1699EF46CD5FE7106FC867696BD18EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E637B848B855F09AE31FD54F3131EEE4 /* IRCollectionTableViewModel */,
+				57CAC6535C02D69510722B74C0576447 /* IRCommonTools */,
+				DA4FEF37E216F002E53CDFA16163735D /* IRDataPicker */,
+				5890749780A54DA2C10E0C5429E1C3C5 /* IRDataPicker-IRDataPickerBundle */,
+				B590DA6DE1597E288B5653F5BB7F5D9B /* IRPopupMenu */,
+				497EDA97C69BFDB04A1C57972A77D334 /* IRSingleButtonGroup */,
+				9F90BDE0973CAD55DD0348D4D1F84D13 /* Pods-TestFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1331ADF37646EC9B96EF1EBAD8FBB86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C88994BEFF6DA4F4F4E7D9525CE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AB551987B75E746769E8B8021FA9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415817531901D3A84087575415593F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DB5C59A07C78DE4E6028E2EC8DECF6 /* IRDataPickerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F2EBC4B46C3C381BA2B5DD4F1E5CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B380CE49B0068EC685989F5BF013AE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8A611C7F45909906A9AD91880F16B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23AEFDFF1CF0D7DC1A8E9DCA2143F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EB9BBB0311085A7A76BB59AAEBFBC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A1D8BA541EBF0342D48573441C4C3 /* IRDataPicker+Common.m in Sources */,
+				55D0004F4EA7CC21EEF7BA1C568DC060 /* IRDataPicker+Date.m in Sources */,
+				DA193D33CBAC1171FC41F35D55A2094C /* IRDataPicker+DateAndTime.m in Sources */,
+				884BD41ECFE38ABB1E3A4AFB31C6E0B5 /* IRDataPicker+DateHour.m in Sources */,
+				C94E87BD218444FB5AE3172DDB840B13 /* IRDataPicker+DateHourMinute.m in Sources */,
+				E524D055C2BF925C8DF50D99BED4CA94 /* IRDataPicker+DateHourMinuteSecond.m in Sources */,
+				CDC36F708A5B0EC593A69C6AAD8A553D /* IRDataPicker+Logic.m in Sources */,
+				D7BF9D2E554CF5AB089BA823E55C5FD9 /* IRDataPicker+MinuteAndSecond.m in Sources */,
+				D360141B97BDDA617493151583E13AE9 /* IRDataPicker+MonthDay.m in Sources */,
+				93E826E25CDCCEC1938F3AD620E2E4FE /* IRDataPicker+MonthDayHour.m in Sources */,
+				FEBD5E76397673B921F012527D44CC20 /* IRDataPicker+MonthDayHourMinute.m in Sources */,
+				D6FB618FF17A8A95320E98221E267399 /* IRDataPicker+MonthDayHourMinuteSecond.m in Sources */,
+				A16DF85CD52A58FD7A862AF955251674 /* IRDataPicker+Time.m in Sources */,
+				11A674E4FFA3522D6CB779EB6483F8DA /* IRDataPicker+TimeAndSecond.m in Sources */,
+				1169BEB404DF706F9F5D2B10AC2E7D59 /* IRDataPicker+Year.m in Sources */,
+				41FB3294A6F298E0F4C0F6DC911C997F /* IRDataPicker+YearAndMonth.m in Sources */,
+				53AD6E4A8EC746632FC9671CCD3A1C55 /* IRDataPicker-dummy.m in Sources */,
+				D46C1C9683F04627D7D1C7B1246073DE /* IRDataPicker.m in Sources */,
+				91D0E33DF67E913C2A9580A235F7F8CA /* IRDataPickerManager.m in Sources */,
+				ABAC376400F71FC2E5881F8C8894A30F /* IRDataPickerManagerHeaderView.m in Sources */,
+				81373B16396A5389CEAE655582E76275 /* IRDataPickerView.m in Sources */,
+				217A52D3796C3B74170BDC48CCC52CDD /* IRPickerColumnCell.m in Sources */,
+				CA3D47126DC812F44184AA7CD7E67501 /* IRPickerColumnView.m in Sources */,
+				30397818BEFD3C9948B3FABC5A0D33FD /* IRPickerTableView.m in Sources */,
+				43997C525E65EBF5BA264B90956C3738 /* IRPickerView.m in Sources */,
+				755BB7D993F30DD0C8DCDE65A39C54DE /* NSBundle+IRDataPicker.m in Sources */,
+				65BE88641C8E89ABAD6C0F3FE34586D2 /* NSCalendar+IRCurrent.m in Sources */,
+				A3F86155F4C6B53AC15376DD2A5D015A /* NSDate+IRCategory.m in Sources */,
+				3D44AF199E32D03E88A82F64A7F0E644 /* UIColor+IRHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D46C7030E2BF80B9DA54A8FF58F2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C2B60EC31F3A276D2BB7EDFBAEE142 /* IRSingleButtonGroup-dummy.m in Sources */,
+				9DFD82252FDAC5B4EBB2A0059C8C0535 /* IRSingleButtonGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F97070B56167B4CDE89992FF417C0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FEF8C4BBD0AC4B8FE4B34B6EA26FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDBC046D407F72F46A6240E01219544 /* IRPopupMenu-dummy.m in Sources */,
+				EDD66DC2B8B0BDB643DFCDA6412B069F /* IRPopupMenuImp.m in Sources */,
+				69ECB38A7F6C90AA1A888A35A4D06B05 /* IRPopupMenuPath.m in Sources */,
+				F5209E05DDF234F5C1A6542CD2DB5AF7 /* IRRectConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8555419D22B947AD8E3D50F96BDC3DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFDFBDD7D27C293914A802DCE6ABE95 /* IRCollectionTableViewModel-dummy.m in Sources */,
+				E0854D1ECB9A548CF0F69F32CD9729D0 /* RowBasicModelItem.m in Sources */,
+				F494C1BE218A50C4453C72E3058C56E3 /* SectionBasicModelItem.m in Sources */,
+				145B6D5E4319C49848CB139EF89489E5 /* TableViewBasicViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18D244FB1D391A79BF3E12D7910F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8F9013348044258C7E85D96F86C792 /* Pods-TestFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB607821CF49B79E98507B81B844E9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA66E3638721206490C41027704D32AA /* IRCommonTools-dummy.m in Sources */,
+				666595A28486E4683671AF3F7C41674B /* IRCommonToolsImp.m in Sources */,
+				BA99544E9E37CBA90F58118FED4887BE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C0C4D160C80C0CEDAA8101F46A6B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRPopupMenu;
+			target = B590DA6DE1597E288B5653F5BB7F5D9B /* IRPopupMenu */;
+			targetProxy = 6EA8E05E1C2C513DC469E9318BB3843B /* PBXContainerItemProxy */;
+		};
+		55712916E3E4EE366962FBE1F2EBB5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRCommonTools;
+			target = 57CAC6535C02D69510722B74C0576447 /* IRCommonTools */;
+			targetProxy = FFF8F39F70083141C5857FC684E9530F /* PBXContainerItemProxy */;
+		};
+		91B6E229688B3003268715595E9C0423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRSingleButtonGroup;
+			target = 497EDA97C69BFDB04A1C57972A77D334 /* IRSingleButtonGroup */;
+			targetProxy = 1C7ED08594C0B971270C6BC54C8B716B /* PBXContainerItemProxy */;
+		};
+		D1A3D3E60AF7501EDA8D5402C3BFCE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IRDataPicker-IRDataPickerBundle";
+			target = 5890749780A54DA2C10E0C5429E1C3C5 /* IRDataPicker-IRDataPickerBundle */;
+			targetProxy = 319D1939F8C642A889E5BB5B1DBA9931 /* PBXContainerItemProxy */;
+		};
+		E381AFE8FAA9EF3C680BCDEA3FD95586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRCollectionTableViewModel;
+			target = E637B848B855F09AE31FD54F3131EEE4 /* IRCollectionTableViewModel */;
+			targetProxy = E4C4EE0C5F4E74131C1FF9406D1D5645 /* PBXContainerItemProxy */;
+		};
+		F6C3CA3589AAAA86D9A67E4ACA4BE2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRDataPicker;
+			target = DA4FEF37E216F002E53CDFA16163735D /* IRDataPicker */;
+			targetProxy = 52CA6BE8A55DBA79A271F0AD646BFE7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1306D988E180554262AEFA224DE623CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B29F9BA6525702D5E1748E96A44626 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = IRDataPickerBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06ABD62606B1BF37815804ED73000D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IRDataPicker";
+				INFOPLIST_FILE = "Target Support Files/IRDataPicker/ResourceBundle-IRDataPickerBundle-IRDataPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IRDataPickerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1F308D89CA21A607A8ECA14D0E632067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72253B4C7CA37FF4AC0A4CDE22240C8 /* Pods-TestFramework.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestFramework/Pods-TestFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestFramework/Pods-TestFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F9814BD336A485BDBE8D766D9F4B724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRDataPicker/IRDataPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRDataPicker/IRDataPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRDataPicker/IRDataPicker.modulemap";
+				PRODUCT_MODULE_NAME = IRDataPicker;
+				PRODUCT_NAME = IRDataPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5810E7990F210D0A150016A5465EFA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRDataPicker/IRDataPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRDataPicker/IRDataPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRDataPicker/IRDataPicker.modulemap";
+				PRODUCT_MODULE_NAME = IRDataPicker;
+				PRODUCT_NAME = IRDataPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58BBB243F7402EF01AF6A0EBCCCB124A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70DFCDAC05E9788AE2363FCBA750900 /* IRCollectionTableViewModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel.modulemap";
+				PRODUCT_MODULE_NAME = IRCollectionTableViewModel;
+				PRODUCT_NAME = IRCollectionTableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74759BAC8944991BF3FA90C2C6BCB267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB38C95059BB84BAFD9CED7785C5731 /* IRSingleButtonGroup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup.modulemap";
+				PRODUCT_MODULE_NAME = IRSingleButtonGroup;
+				PRODUCT_NAME = IRSingleButtonGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78A7B87D30ABC21058A58C1B39F9CD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F370838E08BA79ED0435FC3835E67E2 /* IRDataPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IRDataPicker";
+				INFOPLIST_FILE = "Target Support Files/IRDataPicker/ResourceBundle-IRDataPickerBundle-IRDataPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IRDataPickerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7CEAFDAA1949814698A5D9B66AA9EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9269A1998034F18B30396D0AFE514271 /* IRPopupMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRPopupMenu/IRPopupMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRPopupMenu/IRPopupMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRPopupMenu/IRPopupMenu.modulemap";
+				PRODUCT_MODULE_NAME = IRPopupMenu;
+				PRODUCT_NAME = IRPopupMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9CFBF9B1E457BCF581F6DB598A9B6FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70DFCDAC05E9788AE2363FCBA750900 /* IRCollectionTableViewModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRCollectionTableViewModel/IRCollectionTableViewModel.modulemap";
+				PRODUCT_MODULE_NAME = IRCollectionTableViewModel;
+				PRODUCT_NAME = IRCollectionTableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D89C1ECC91A5C78F000417297805E101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9269A1998034F18B30396D0AFE514271 /* IRPopupMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRPopupMenu/IRPopupMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRPopupMenu/IRPopupMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRPopupMenu/IRPopupMenu.modulemap";
+				PRODUCT_MODULE_NAME = IRPopupMenu;
+				PRODUCT_NAME = IRPopupMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0A16F42066B8A4BCC7D998B353CBECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9CBB6ED8C224819A726C0CA721C66C /* IRCommonTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRCommonTools/IRCommonTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRCommonTools/IRCommonTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRCommonTools/IRCommonTools.modulemap";
+				PRODUCT_MODULE_NAME = IRCommonTools;
+				PRODUCT_NAME = IRCommonTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAEE799EFE1CA26395698ADA40C7E560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9CBB6ED8C224819A726C0CA721C66C /* IRCommonTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRCommonTools/IRCommonTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRCommonTools/IRCommonTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRCommonTools/IRCommonTools.modulemap";
+				PRODUCT_MODULE_NAME = IRCommonTools;
+				PRODUCT_NAME = IRCommonTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEFC74974149BCBBAEF713D77ACC260B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB38C95059BB84BAFD9CED7785C5731 /* IRSingleButtonGroup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRSingleButtonGroup/IRSingleButtonGroup.modulemap";
+				PRODUCT_MODULE_NAME = IRSingleButtonGroup;
+				PRODUCT_NAME = IRSingleButtonGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD69319499075059E998F4439829176B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A3398FD14419A53F0FCBA6A8C52F49 /* Pods-TestFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestFramework/Pods-TestFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestFramework/Pods-TestFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141432DF1C550611DF16F45E1832F0A5 /* Build configuration list for PBXNativeTarget "IRCollectionTableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFBF9B1E457BCF581F6DB598A9B6FAF /* Debug */,
+				58BBB243F7402EF01AF6A0EBCCCB124A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368CD599CBE6AAFEF521AB9BE57AC89A /* Build configuration list for PBXNativeTarget "IRDataPicker-IRDataPickerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A7B87D30ABC21058A58C1B39F9CD68 /* Debug */,
+				06ABD62606B1BF37815804ED73000D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492052E38D183C1FC47038025E48BA37 /* Build configuration list for PBXNativeTarget "IRDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9814BD336A485BDBE8D766D9F4B724 /* Debug */,
+				5810E7990F210D0A150016A5465EFA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FDD83FF5AD292F09AEACC972238E5E /* Build configuration list for PBXNativeTarget "IRSingleButtonGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74759BAC8944991BF3FA90C2C6BCB267 /* Debug */,
+				EEFC74974149BCBBAEF713D77ACC260B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C47E7DFA36EC0EAF1892B4866FCF4E /* Build configuration list for PBXNativeTarget "IRPopupMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C1ECC91A5C78F000417297805E101 /* Debug */,
+				7CEAFDAA1949814698A5D9B66AA9EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54DC85091ADAAAE2E19E44F9B8D18C2 /* Build configuration list for PBXNativeTarget "IRCommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A16F42066B8A4BCC7D998B353CBECE /* Debug */,
+				EAEE799EFE1CA26395698ADA40C7E560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC0CFB226E39E8E96AB512012BF30DB /* Build configuration list for PBXNativeTarget "Pods-TestFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F308D89CA21A607A8ECA14D0E632067 /* Debug */,
+				FD69319499075059E998F4439829176B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
