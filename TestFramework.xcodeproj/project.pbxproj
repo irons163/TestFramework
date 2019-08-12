@@ -22,6 +22,14 @@
 		8A3E63E322E93C1300A2370F /* PopupMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E63E122E93C1300A2370F /* PopupMenuViewController.xib */; };
 		8A3E63E722E93CA700A2370F /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E63E422E93CA600A2370F /* MenuTableViewCell.m */; };
 		8A3E63E822E93CA700A2370F /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E63E522E93CA700A2370F /* MenuTableViewCell.xib */; };
+		8AA3EA202301011E00331251 /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA172301011500331251 /* Page2ViewController.xib */; };
+		8AA3EA212301011E00331251 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1A2301011A00331251 /* Page1ViewController.m */; };
+		8AA3EA222301011E00331251 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1B2301011C00331251 /* Page2ViewController.m */; };
+		8AA3EA232301011E00331251 /* Page1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1C2301011D00331251 /* Page1ViewController.xib */; };
+		8AA3EA242301011E00331251 /* Page3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1D2301011D00331251 /* Page3ViewController.xib */; };
+		8AA3EA252301011E00331251 /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1F2301011E00331251 /* Page3ViewController.m */; };
+		8AA3EA292301058500331251 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA272301058500331251 /* TabViewController.xib */; };
+		8AA3EA2A2301058500331251 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA282301058500331251 /* TabViewController.m */; };
 		8AFC996422F7FE800057D921 /* DataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC996222F7FE800057D921 /* DataPickerViewController.m */; };
 		8AFC996522F7FE800057D921 /* DataPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFC996322F7FE800057D921 /* DataPickerViewController.xib */; };
 		8AFC996922F7FEF30057D921 /* TabbedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC996722F7FEF20057D921 /* TabbedPageViewController.m */; };
@@ -85,6 +93,18 @@
 		8A3E63E422E93CA600A2370F /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		8A3E63E522E93CA700A2370F /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		8A3E63E622E93CA700A2370F /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		8AA3EA172301011500331251 /* Page2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page2ViewController.xib; sourceTree = "<group>"; };
+		8AA3EA182301011600331251 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		8AA3EA192301011900331251 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		8AA3EA1A2301011A00331251 /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		8AA3EA1B2301011C00331251 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
+		8AA3EA1C2301011D00331251 /* Page1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page1ViewController.xib; sourceTree = "<group>"; };
+		8AA3EA1D2301011D00331251 /* Page3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page3ViewController.xib; sourceTree = "<group>"; };
+		8AA3EA1E2301011E00331251 /* Page3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3ViewController.h; sourceTree = "<group>"; };
+		8AA3EA1F2301011E00331251 /* Page3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3ViewController.m; sourceTree = "<group>"; };
+		8AA3EA262301058400331251 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		8AA3EA272301058500331251 /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		8AA3EA282301058500331251 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		8AFC996122F7FE800057D921 /* DataPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPickerViewController.h; sourceTree = "<group>"; };
 		8AFC996222F7FE800057D921 /* DataPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerViewController.m; sourceTree = "<group>"; };
 		8AFC996322F7FE800057D921 /* DataPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataPickerViewController.xib; sourceTree = "<group>"; };
@@ -189,6 +209,18 @@
 				8AFC996622F7FEF20057D921 /* TabbedPageViewController.h */,
 				8AFC996722F7FEF20057D921 /* TabbedPageViewController.m */,
 				8AFC996822F7FEF30057D921 /* TabbedPageViewController.xib */,
+				8AA3EA262301058400331251 /* TabViewController.h */,
+				8AA3EA282301058500331251 /* TabViewController.m */,
+				8AA3EA272301058500331251 /* TabViewController.xib */,
+				8AA3EA1E2301011E00331251 /* Page3ViewController.h */,
+				8AA3EA1F2301011E00331251 /* Page3ViewController.m */,
+				8AA3EA1D2301011D00331251 /* Page3ViewController.xib */,
+				8AA3EA182301011600331251 /* Page2ViewController.h */,
+				8AA3EA1B2301011C00331251 /* Page2ViewController.m */,
+				8AA3EA172301011500331251 /* Page2ViewController.xib */,
+				8AA3EA192301011900331251 /* Page1ViewController.h */,
+				8AA3EA1A2301011A00331251 /* Page1ViewController.m */,
+				8AA3EA1C2301011D00331251 /* Page1ViewController.xib */,
 			);
 			path = TabbedPage;
 			sourceTree = "<group>";
@@ -466,6 +498,7 @@
 				8AFC996A22F7FEF30057D921 /* TabbedPageViewController.xib in Resources */,
 				8AFC99C722F935470057D921 /* MonitorHeaderView.xib in Resources */,
 				8A3E63DB22E849AD00A2370F /* SingleButtonTableViewCell.xib in Resources */,
+				8AA3EA232301011E00331251 /* Page1ViewController.xib in Resources */,
 				8A3E63E822E93CA700A2370F /* MenuTableViewCell.xib in Resources */,
 				8AFC99CD22F935470057D921 /* MonitorFolderTableViewCell.xib in Resources */,
 				8AFC997F22F935150057D921 /* TableViewController.xib in Resources */,
@@ -473,11 +506,14 @@
 				8AFC99CB22F935470057D921 /* MonitorFileCollectionViewCell.xib in Resources */,
 				8A3E63C822E8426500A2370F /* LaunchScreen.storyboard in Resources */,
 				8A3E63E322E93C1300A2370F /* PopupMenuViewController.xib in Resources */,
+				8AA3EA202301011E00331251 /* Page2ViewController.xib in Resources */,
 				8AFC997D22F935150057D921 /* CollectionViewController.xib in Resources */,
+				8AA3EA242301011E00331251 /* Page3ViewController.xib in Resources */,
 				8AFC99C922F935470057D921 /* MonitorFolderCollectionViewCell.xib in Resources */,
 				8AFC996522F7FE800057D921 /* DataPickerViewController.xib in Resources */,
 				8AFC99BD22F935470057D921 /* TableViewHeaderView.xib in Resources */,
 				8AFC997522F90F5F0057D921 /* CollectionTableViewModelViewController.xib in Resources */,
+				8AA3EA292301058500331251 /* TabViewController.xib in Resources */,
 				8A3E63C522E8426500A2370F /* Assets.xcassets in Resources */,
 				8A3E63D522E848C300A2370F /* SingleButtonGroupViewController.xib in Resources */,
 				8A3E63C322E8425700A2370F /* Main.storyboard in Resources */,
@@ -537,6 +573,7 @@
 				8A3E63E222E93C1300A2370F /* PopupMenuViewController.m in Sources */,
 				8AFC99C622F935470057D921 /* MonitorableFolderClass.m in Sources */,
 				8A3E63DC22E849AD00A2370F /* SingleButtonTableViewCell.m in Sources */,
+				8AA3EA212301011E00331251 /* Page1ViewController.m in Sources */,
 				8AFC99CA22F935470057D921 /* MonitorFileTableViewCell.m in Sources */,
 				8A3E63C022E8425700A2370F /* ViewController.m in Sources */,
 				8AFC997422F90F5F0057D921 /* CollectionTableViewModelViewController.m in Sources */,
@@ -544,11 +581,14 @@
 				8AFC99C022F935470057D921 /* MonitorViewModel.m in Sources */,
 				8AFC99C122F935470057D921 /* File.m in Sources */,
 				8AFC99B922F935470057D921 /* TableViewViewModel.m in Sources */,
+				8AA3EA252301011E00331251 /* Page3ViewController.m in Sources */,
 				8A3E63E722E93CA700A2370F /* MenuTableViewCell.m in Sources */,
 				8AFC99D122F935470057D921 /* MonitorHeaderView.m in Sources */,
 				8AFC99C422F935470057D921 /* MonitorableFileClass.m in Sources */,
+				8AA3EA222301011E00331251 /* Page2ViewController.m in Sources */,
 				8AFC99BE22F935470057D921 /* FolderFactory.m in Sources */,
 				8AFC99BF22F935470057D921 /* Folder.m in Sources */,
+				8AA3EA2A2301058500331251 /* TabViewController.m in Sources */,
 				8AFC996422F7FE800057D921 /* DataPickerViewController.m in Sources */,
 				8AFC99BC22F935470057D921 /* TableViewHeaderView.m in Sources */,
 				8AFC99C522F935470057D921 /* CollectionBrowserViewModel.m in Sources */,
