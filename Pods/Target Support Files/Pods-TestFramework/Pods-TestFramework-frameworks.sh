@@ -166,6 +166,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRPopupMenu/IRPopupMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRSingleButtonGroup/IRSingleButtonGroup.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRTabbedPageViewController/IRTabbedPageViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework"
@@ -173,6 +175,8 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRPopupMenu/IRPopupMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRSingleButtonGroup/IRSingleButtonGroup.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRTabbedPageViewController/IRTabbedPageViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -4,6 +4,9 @@ PODS:
   - IRDataPicker (1.0.0)
   - IRPopupMenu (1.0.0)
   - IRSingleButtonGroup (1.0.0)
+  - IRTabbedPageViewController (1.0.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - IRCollectionTableViewModel
@@ -11,6 +14,7 @@ DEPENDENCIES:
   - IRDataPicker
   - IRPopupMenu
   - IRSingleButtonGroup
+  - IRTabbedPageViewController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -19,6 +23,8 @@ SPEC REPOS:
     - IRDataPicker
     - IRPopupMenu
     - IRSingleButtonGroup
+    - IRTabbedPageViewController
+    - Masonry
 
 SPEC CHECKSUMS:
   IRCollectionTableViewModel: 9e3d5f0e7b434d54f3665ae9329a37b32107bc67
@@ -26,7 +32,9 @@ SPEC CHECKSUMS:
   IRDataPicker: 34474d6a852a91b91fdc1bde88f23a2ccd104807
   IRPopupMenu: ced9b5906c6ac3d3a57d88e629ae2a65966ebb40
   IRSingleButtonGroup: a688e6fede7296b87f505b56d7e9b877ade006e6
+  IRTabbedPageViewController: c384cad4049b97fcf23641f0154be80e433f704d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 066011ed8fa6b1d0476475beb8f4341673cb5dd9
+PODFILE CHECKSUM: 5d46ad7f42b7d67e5e998c7111f1c48aeba4becd
 
 COCOAPODS: 1.7.1

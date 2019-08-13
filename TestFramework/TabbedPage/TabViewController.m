@@ -31,7 +31,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.navigationBar.hidden = YES;
     self.tabbedDelegate = self;
     
     if(!self.tabBarView){
@@ -39,8 +38,8 @@
         [self.view addSubview:tabBarView];
         [tabBarView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.width.equalTo(self.view);
-            make.top.equalTo(self.view);
-            make.bottom.equalTo(self.mas_topLayoutGuideBottom).mas_offset(44);
+            make.top.equalTo(self.mas_topLayoutGuideBottom);
+            make.bottom.equalTo(self.mas_topLayoutGuideBottom).mas_offset(55);
         }];
         self.tabBarView = tabBarView;
         self.tabBarView.dataSource = self;

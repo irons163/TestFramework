@@ -30,6 +30,7 @@
 		8AA3EA252301011E00331251 /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1F2301011E00331251 /* Page3ViewController.m */; };
 		8AA3EA292301058500331251 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA272301058500331251 /* TabViewController.xib */; };
 		8AA3EA2A2301058500331251 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA282301058500331251 /* TabViewController.m */; };
+		8AA3EB332302736300331251 /* TabButtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EB322302736300331251 /* TabButtom.m */; };
 		8AFC996422F7FE800057D921 /* DataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC996222F7FE800057D921 /* DataPickerViewController.m */; };
 		8AFC996522F7FE800057D921 /* DataPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFC996322F7FE800057D921 /* DataPickerViewController.xib */; };
 		8AFC996922F7FEF30057D921 /* TabbedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC996722F7FEF20057D921 /* TabbedPageViewController.m */; };
@@ -105,6 +106,8 @@
 		8AA3EA262301058400331251 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		8AA3EA272301058500331251 /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
 		8AA3EA282301058500331251 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		8AA3EB312302736200331251 /* TabButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabButtom.h; sourceTree = "<group>"; };
+		8AA3EB322302736300331251 /* TabButtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabButtom.m; sourceTree = "<group>"; };
 		8AFC996122F7FE800057D921 /* DataPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPickerViewController.h; sourceTree = "<group>"; };
 		8AFC996222F7FE800057D921 /* DataPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerViewController.m; sourceTree = "<group>"; };
 		8AFC996322F7FE800057D921 /* DataPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataPickerViewController.xib; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 		8A3C112722FA9A2800FE50E1 /* TabbedPage */ = {
 			isa = PBXGroup;
 			children = (
+				8AA3EB302302735400331251 /* View */,
 				8AFC996622F7FEF20057D921 /* TabbedPageViewController.h */,
 				8AFC996722F7FEF20057D921 /* TabbedPageViewController.m */,
 				8AFC996822F7FEF30057D921 /* TabbedPageViewController.xib */,
@@ -300,6 +304,15 @@
 				8A3E63CA22E8426500A2370F /* main.m */,
 			);
 			path = TestFramework;
+			sourceTree = "<group>";
+		};
+		8AA3EB302302735400331251 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AA3EB312302736200331251 /* TabButtom.h */,
+				8AA3EB322302736300331251 /* TabButtom.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8AFC997622F934390057D921 /* CollectionTableViewModel */ = {
@@ -585,6 +598,7 @@
 				8A3E63E722E93CA700A2370F /* MenuTableViewCell.m in Sources */,
 				8AFC99D122F935470057D921 /* MonitorHeaderView.m in Sources */,
 				8AFC99C422F935470057D921 /* MonitorableFileClass.m in Sources */,
+				8AA3EB332302736300331251 /* TabButtom.m in Sources */,
 				8AA3EA222301011E00331251 /* Page2ViewController.m in Sources */,
 				8AFC99BE22F935470057D921 /* FolderFactory.m in Sources */,
 				8AFC99BF22F935470057D921 /* Folder.m in Sources */,

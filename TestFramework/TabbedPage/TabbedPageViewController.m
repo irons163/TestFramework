@@ -22,7 +22,7 @@
 
 - (IBAction)demoButtonClick:(id)sender {
     TabViewController *vc = [TabViewController new];
-    [self presentViewController:vc animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
