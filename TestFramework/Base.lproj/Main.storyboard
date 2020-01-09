@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vec-on-cmm">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vec-on-cmm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,54 +32,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSz-cd-NY4">
-                                <rect key="frame" x="138" y="138" width="138" height="30"/>
-                                <state key="normal" title="Single Button Group"/>
-                                <connections>
-                                    <action selector="singleButtonGroupButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KrZ-qD-Ezc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCv-ul-l7c">
-                                <rect key="frame" x="163.5" y="218" width="87" height="30"/>
-                                <state key="normal" title="Popup Menu"/>
-                                <connections>
-                                    <action selector="PopupMenuViewButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldw-Xx-GU0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFx-IG-eFZ">
-                                <rect key="frame" x="167.5" y="298" width="79" height="30"/>
-                                <state key="normal" title="Data Picker"/>
-                                <connections>
-                                    <action selector="dataPickerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMt-jt-DWZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-OU-mDc">
-                                <rect key="frame" x="162" y="378" width="90" height="30"/>
-                                <state key="normal" title="Tabbed Page"/>
-                                <connections>
-                                    <action selector="tabbedPageButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zan-Bw-pA2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlI-pz-5pJ">
-                                <rect key="frame" x="98" y="458" width="218" height="30"/>
-                                <state key="normal" title="CollectionTableViewModel Page"/>
-                                <connections>
-                                    <action selector="collectionTableViewModelButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5i-qs-03W"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="rhp-nJ-5bI">
+                                <rect key="frame" x="98" y="280" width="218" height="390"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSz-cd-NY4">
+                                        <rect key="frame" x="40" y="0.0" width="138" height="30"/>
+                                        <state key="normal" title="Single Button Group"/>
+                                        <connections>
+                                            <action selector="singleButtonGroupButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KrZ-qD-Ezc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCv-ul-l7c">
+                                        <rect key="frame" x="65.5" y="60" width="87" height="30"/>
+                                        <state key="normal" title="Popup Menu"/>
+                                        <connections>
+                                            <action selector="PopupMenuViewButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldw-Xx-GU0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFx-IG-eFZ">
+                                        <rect key="frame" x="69.5" y="120" width="79" height="30"/>
+                                        <state key="normal" title="Data Picker"/>
+                                        <connections>
+                                            <action selector="dataPickerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMt-jt-DWZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-OU-mDc">
+                                        <rect key="frame" x="64" y="180" width="90" height="30"/>
+                                        <state key="normal" title="Tabbed Page"/>
+                                        <connections>
+                                            <action selector="tabbedPageButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zan-Bw-pA2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlI-pz-5pJ">
+                                        <rect key="frame" x="0.0" y="240" width="218" height="30"/>
+                                        <state key="normal" title="CollectionTableViewModel Page"/>
+                                        <connections>
+                                            <action selector="collectionTableViewModelButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5i-qs-03W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faT-YG-cMj">
+                                        <rect key="frame" x="66" y="300" width="86" height="30"/>
+                                        <state key="normal" title="Video Player"/>
+                                        <connections>
+                                            <action selector="videoPlayerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybE-qh-zBq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gut-hD-6yk" userLabel="Music Player">
+                                        <rect key="frame" x="65.5" y="360" width="87" height="30"/>
+                                        <state key="normal" title="Music Player"/>
+                                        <connections>
+                                            <action selector="musicPlayerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l12-We-DL7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ZlI-pz-5pJ" firstAttribute="top" secondItem="hmr-OU-mDc" secondAttribute="bottom" constant="50" id="8dJ-sQ-FHS"/>
-                            <constraint firstItem="VCv-ul-l7c" firstAttribute="top" secondItem="fSz-cd-NY4" secondAttribute="bottom" constant="50" id="941-gU-lD4"/>
-                            <constraint firstItem="fSz-cd-NY4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="W5a-bi-5we"/>
-                            <constraint firstItem="fSz-cd-NY4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abB-Ro-eAw"/>
-                            <constraint firstItem="UFx-IG-eFZ" firstAttribute="top" secondItem="VCv-ul-l7c" secondAttribute="bottom" constant="50" id="hUR-xU-jwx"/>
-                            <constraint firstItem="VCv-ul-l7c" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nRp-B9-VEJ"/>
-                            <constraint firstItem="ZlI-pz-5pJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pqA-LG-Ix1"/>
-                            <constraint firstItem="UFx-IG-eFZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qrN-P5-uVd"/>
-                            <constraint firstItem="hmr-OU-mDc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="t0E-9e-L9E"/>
-                            <constraint firstItem="hmr-OU-mDc" firstAttribute="top" secondItem="UFx-IG-eFZ" secondAttribute="bottom" constant="50" id="zDc-H1-yeo"/>
+                            <constraint firstItem="rhp-nJ-5bI" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dMq-aa-Irk"/>
+                            <constraint firstItem="rhp-nJ-5bI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gNR-RD-fBj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -12,6 +12,8 @@
 #import "DataPickerViewController.h"
 #import "TabbedPageViewController.h"
 #import "CollectionTableViewModelViewController.h"
+#import "PlayerDemoViewController.h"
+#import "MusicViewController.h"
 
 @interface ViewController ()
 
@@ -46,6 +48,16 @@
 
 - (IBAction)collectionTableViewModelButtonClick:(id)sender {
     CollectionTableViewModelViewController *vc = [CollectionTableViewModelViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)videoPlayerButtonClick:(id)sender {
+    PlayerDemoViewController *vc = [PlayerDemoViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)musicPlayerButtonClick:(id)sender {
+    MusicViewController *vc = [MusicViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

@@ -1,7 +1,12 @@
 PODS:
-  - IRCollectionTableViewModel (1.0.0)
   - IRCommonTools (1.0.0)
   - IRDataPicker (1.0.0)
+  - IRFFMpeg (4.2.19):
+    - IRFFMpeg/FFMpegLib (= 4.2.19)
+  - IRFFMpeg/FFMpegLib (4.2.19)
+  - IRMusicPlayer (0.1.0)
+  - IRPlayer (0.3.4):
+    - IRFFMpeg
   - IRPopupMenu (1.0.0)
   - IRSingleButtonGroup (1.0.0)
   - IRTabbedPageViewController (1.0.0):
@@ -9,32 +14,37 @@ PODS:
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - IRCollectionTableViewModel
   - IRCommonTools
   - IRDataPicker
+  - IRMusicPlayer
+  - IRPlayer
   - IRPopupMenu
   - IRSingleButtonGroup
   - IRTabbedPageViewController
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - IRCollectionTableViewModel
+  trunk:
     - IRCommonTools
     - IRDataPicker
+    - IRFFMpeg
+    - IRMusicPlayer
+    - IRPlayer
     - IRPopupMenu
     - IRSingleButtonGroup
     - IRTabbedPageViewController
     - Masonry
 
 SPEC CHECKSUMS:
-  IRCollectionTableViewModel: 9e3d5f0e7b434d54f3665ae9329a37b32107bc67
   IRCommonTools: 8981dddc776a381c2b8758a015ec4b1896f92076
   IRDataPicker: 34474d6a852a91b91fdc1bde88f23a2ccd104807
+  IRFFMpeg: 50e159994f9c7c1136b19fc1dea96b4c903b1c9c
+  IRMusicPlayer: ec95a4606bf68cf8dbb45c7d1121a29025c7a66b
+  IRPlayer: 9b3ccea36208ed2dbb9652dc03f0fee0e29ab74e
   IRPopupMenu: ced9b5906c6ac3d3a57d88e629ae2a65966ebb40
   IRSingleButtonGroup: a688e6fede7296b87f505b56d7e9b877ade006e6
   IRTabbedPageViewController: c384cad4049b97fcf23641f0154be80e433f704d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 5d46ad7f42b7d67e5e998c7111f1c48aeba4becd
+PODFILE CHECKSUM: 6fa74a7a1fa6928c43cab331778456ac83f1ba99
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.0.beta.2

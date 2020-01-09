@@ -161,18 +161,22 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRCommonTools/IRCommonTools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRMusicPlayer/IRMusicPlayer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRPlayer/IRPlayer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRPopupMenu/IRPopupMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRSingleButtonGroup/IRSingleButtonGroup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRTabbedPageViewController/IRTabbedPageViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRCommonTools/IRCommonTools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRMusicPlayer/IRMusicPlayer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRPlayer/IRPlayer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRPopupMenu/IRPopupMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRSingleButtonGroup/IRSingleButtonGroup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRTabbedPageViewController/IRTabbedPageViewController.framework"

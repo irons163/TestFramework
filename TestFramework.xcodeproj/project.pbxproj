@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3A919CA6F25FB86EC745B988 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFCE1446D25FB789A169F66 /* Pods_TestFramework.framework */; };
+		8A390EDA2375106B00B2B168 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A390ED72375106800B2B168 /* 3.mp3 */; };
+		8A390EDB2375106B00B2B168 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A390ED82375106900B2B168 /* 1.mp3 */; };
+		8A390EDC2375106B00B2B168 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A390ED92375106A00B2B168 /* 2.mp3 */; };
+		8A390EE0237510A100B2B168 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A390EDE237510A100B2B168 /* MusicViewController.m */; };
+		8A390EE1237510A100B2B168 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A390EDF237510A100B2B168 /* MusicViewController.xib */; };
+		8A3E53BB2354261A00430024 /* PlayerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E53B92354261A00430024 /* PlayerDemoViewController.m */; };
+		8A3E53BC2354261A00430024 /* PlayerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E53BA2354261A00430024 /* PlayerDemoViewController.xib */; };
 		8A3E63BD22E8425700A2370F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E63BC22E8425700A2370F /* AppDelegate.m */; };
 		8A3E63C022E8425700A2370F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E63BF22E8425700A2370F /* ViewController.m */; };
 		8A3E63C322E8425700A2370F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E63C122E8425700A2370F /* Main.storyboard */; };
@@ -22,6 +29,11 @@
 		8A3E63E322E93C1300A2370F /* PopupMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E63E122E93C1300A2370F /* PopupMenuViewController.xib */; };
 		8A3E63E722E93CA700A2370F /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E63E422E93CA600A2370F /* MenuTableViewCell.m */; };
 		8A3E63E822E93CA700A2370F /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E63E522E93CA700A2370F /* MenuTableViewCell.xib */; };
+		8A9C3A8A23307A3900274870 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C3A8723307A3200274870 /* PlayerViewController.m */; };
+		8A9C3A8B23307A3900274870 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C3A8923307A3800274870 /* PlayerViewController.xib */; };
+		8A9C3A8F23307A3F00274870 /* fisheye-demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C3A8C23307A3A00274870 /* fisheye-demo.mp4 */; };
+		8A9C3A9023307A3F00274870 /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C3A8D23307A3B00274870 /* google-help-vr.mp4 */; };
+		8A9C3A9123307A3F00274870 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C3A8E23307A3E00274870 /* i-see-fire.mp4 */; };
 		8AA3EA202301011E00331251 /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3EA172301011500331251 /* Page2ViewController.xib */; };
 		8AA3EA212301011E00331251 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1A2301011A00331251 /* Page1ViewController.m */; };
 		8AA3EA222301011E00331251 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3EA1B2301011C00331251 /* Page2ViewController.m */; };
@@ -72,6 +84,15 @@
 
 /* Begin PBXFileReference section */
 		82B4D582E80E90F59AE57AFC /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		8A390ED72375106800B2B168 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		8A390ED82375106900B2B168 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		8A390ED92375106A00B2B168 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		8A390EDD237510A100B2B168 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		8A390EDE237510A100B2B168 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		8A390EDF237510A100B2B168 /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		8A3E53B82354261A00430024 /* PlayerDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDemoViewController.h; sourceTree = "<group>"; };
+		8A3E53B92354261A00430024 /* PlayerDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDemoViewController.m; sourceTree = "<group>"; };
+		8A3E53BA2354261A00430024 /* PlayerDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerDemoViewController.xib; sourceTree = "<group>"; };
 		8A3E63B822E8425700A2370F /* TestFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3E63BB22E8425700A2370F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A3E63BC22E8425700A2370F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +115,12 @@
 		8A3E63E422E93CA600A2370F /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		8A3E63E522E93CA700A2370F /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		8A3E63E622E93CA700A2370F /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		8A9C3A8723307A3200274870 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		8A9C3A8823307A3300274870 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		8A9C3A8923307A3800274870 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		8A9C3A8C23307A3A00274870 /* fisheye-demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fisheye-demo.mp4"; sourceTree = "<group>"; };
+		8A9C3A8D23307A3B00274870 /* google-help-vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "google-help-vr.mp4"; sourceTree = "<group>"; };
+		8A9C3A8E23307A3E00274870 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
 		8AA3EA172301011500331251 /* Page2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page2ViewController.xib; sourceTree = "<group>"; };
 		8AA3EA182301011600331251 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
 		8AA3EA192301011900331251 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
@@ -206,6 +233,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8A390ED623750FD900B2B168 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8A390ED82375106900B2B168 /* 1.mp3 */,
+				8A390ED92375106A00B2B168 /* 2.mp3 */,
+				8A390ED72375106800B2B168 /* 3.mp3 */,
+				8A390EDD237510A100B2B168 /* MusicViewController.h */,
+				8A390EDE237510A100B2B168 /* MusicViewController.m */,
+				8A390EDF237510A100B2B168 /* MusicViewController.xib */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
 		8A3C112722FA9A2800FE50E1 /* TabbedPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +332,8 @@
 				8A3E63BC22E8425700A2370F /* AppDelegate.m */,
 				8A3E63BE22E8425700A2370F /* ViewController.h */,
 				8A3E63BF22E8425700A2370F /* ViewController.m */,
+				8A390ED623750FD900B2B168 /* MusicPlayer */,
+				8A9C3A862330771E00274870 /* VideoPlayer */,
 				8AFC997622F934390057D921 /* CollectionTableViewModel */,
 				8A3C112722FA9A2800FE50E1 /* TabbedPage */,
 				8A3C112822FA9A4300FE50E1 /* DataPicker */,
@@ -304,6 +346,22 @@
 				8A3E63CA22E8426500A2370F /* main.m */,
 			);
 			path = TestFramework;
+			sourceTree = "<group>";
+		};
+		8A9C3A862330771E00274870 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8A3E53B82354261A00430024 /* PlayerDemoViewController.h */,
+				8A3E53B92354261A00430024 /* PlayerDemoViewController.m */,
+				8A3E53BA2354261A00430024 /* PlayerDemoViewController.xib */,
+				8A9C3A8D23307A3B00274870 /* google-help-vr.mp4 */,
+				8A9C3A8E23307A3E00274870 /* i-see-fire.mp4 */,
+				8A9C3A8C23307A3A00274870 /* fisheye-demo.mp4 */,
+				8A9C3A8823307A3300274870 /* PlayerViewController.h */,
+				8A9C3A8723307A3200274870 /* PlayerViewController.m */,
+				8A9C3A8923307A3800274870 /* PlayerViewController.xib */,
+			);
+			path = VideoPlayer;
 			sourceTree = "<group>";
 		};
 		8AA3EB302302735400331251 /* View */ = {
@@ -506,11 +564,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A390EDA2375106B00B2B168 /* 3.mp3 in Resources */,
 				8AFC99CC22F935470057D921 /* MonitorFileTableViewCell.xib in Resources */,
+				8A9C3A8B23307A3900274870 /* PlayerViewController.xib in Resources */,
+				8A390EDB2375106B00B2B168 /* 1.mp3 in Resources */,
+				8A9C3A8F23307A3F00274870 /* fisheye-demo.mp4 in Resources */,
 				8AFC99C322F935470057D921 /* CollectionBrowser.xib in Resources */,
 				8AFC996A22F7FEF30057D921 /* TabbedPageViewController.xib in Resources */,
 				8AFC99C722F935470057D921 /* MonitorHeaderView.xib in Resources */,
 				8A3E63DB22E849AD00A2370F /* SingleButtonTableViewCell.xib in Resources */,
+				8A390EE1237510A100B2B168 /* MusicViewController.xib in Resources */,
 				8AA3EA232301011E00331251 /* Page1ViewController.xib in Resources */,
 				8A3E63E822E93CA700A2370F /* MenuTableViewCell.xib in Resources */,
 				8AFC99CD22F935470057D921 /* MonitorFolderTableViewCell.xib in Resources */,
@@ -520,13 +583,17 @@
 				8A3E63C822E8426500A2370F /* LaunchScreen.storyboard in Resources */,
 				8A3E63E322E93C1300A2370F /* PopupMenuViewController.xib in Resources */,
 				8AA3EA202301011E00331251 /* Page2ViewController.xib in Resources */,
+				8A9C3A9023307A3F00274870 /* google-help-vr.mp4 in Resources */,
 				8AFC997D22F935150057D921 /* CollectionViewController.xib in Resources */,
 				8AA3EA242301011E00331251 /* Page3ViewController.xib in Resources */,
+				8A390EDC2375106B00B2B168 /* 2.mp3 in Resources */,
+				8A9C3A9123307A3F00274870 /* i-see-fire.mp4 in Resources */,
 				8AFC99C922F935470057D921 /* MonitorFolderCollectionViewCell.xib in Resources */,
 				8AFC996522F7FE800057D921 /* DataPickerViewController.xib in Resources */,
 				8AFC99BD22F935470057D921 /* TableViewHeaderView.xib in Resources */,
 				8AFC997522F90F5F0057D921 /* CollectionTableViewModelViewController.xib in Resources */,
 				8AA3EA292301058500331251 /* TabViewController.xib in Resources */,
+				8A3E53BC2354261A00430024 /* PlayerDemoViewController.xib in Resources */,
 				8A3E63C522E8426500A2370F /* Assets.xcassets in Resources */,
 				8A3E63D522E848C300A2370F /* SingleButtonGroupViewController.xib in Resources */,
 				8A3E63C322E8425700A2370F /* Main.storyboard in Resources */,
@@ -588,6 +655,7 @@
 				8A3E63DC22E849AD00A2370F /* SingleButtonTableViewCell.m in Sources */,
 				8AA3EA212301011E00331251 /* Page1ViewController.m in Sources */,
 				8AFC99CA22F935470057D921 /* MonitorFileTableViewCell.m in Sources */,
+				8A9C3A8A23307A3900274870 /* PlayerViewController.m in Sources */,
 				8A3E63C022E8425700A2370F /* ViewController.m in Sources */,
 				8AFC997422F90F5F0057D921 /* CollectionTableViewModelViewController.m in Sources */,
 				8AFC99C222F935470057D921 /* Utility.m in Sources */,
@@ -601,6 +669,8 @@
 				8AA3EB332302736300331251 /* TabButtom.m in Sources */,
 				8AA3EA222301011E00331251 /* Page2ViewController.m in Sources */,
 				8AFC99BE22F935470057D921 /* FolderFactory.m in Sources */,
+				8A3E53BB2354261A00430024 /* PlayerDemoViewController.m in Sources */,
+				8A390EE0237510A100B2B168 /* MusicViewController.m in Sources */,
 				8AFC99BF22F935470057D921 /* Folder.m in Sources */,
 				8AA3EA2A2301058500331251 /* TabViewController.m in Sources */,
 				8AFC996422F7FE800057D921 /* DataPickerViewController.m in Sources */,
@@ -694,7 +764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -747,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -760,8 +830,21 @@
 			baseConfigurationReference = 82B4D582E80E90F59AE57AFC /* Pods-TestFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6VV6T753H;
+				DEVELOPMENT_TEAM = F7AP32ZTM5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRPlayer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRDataPicker\"",
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRCollectionTableViewModel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRCommonTools\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRPopupMenu\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRSingleButtonGroup\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IRTabbedPageViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -770,6 +853,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irons163.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/IRFFMpeg/IRFFMpeg.framework/Headers\"/**";
 			};
 			name = Debug;
 		};
@@ -778,8 +862,10 @@
 			baseConfigurationReference = D96BA274530CFCFE59CBAF98 /* Pods-TestFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6VV6T753H;
+				DEVELOPMENT_TEAM = F7AP32ZTM5;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -788,6 +874,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irons163.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/IRFFMpeg/IRFFMpeg.framework/Headers\"/**";
 			};
 			name = Release;
 		};
