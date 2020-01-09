@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestFramework/Pods-TestFramework-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework
 ${BUILT_PRODUCTS_DIR}/IRCommonTools/IRCommonTools.framework
 ${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework
 ${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework

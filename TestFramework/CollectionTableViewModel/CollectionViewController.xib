@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +11,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewController">
             <connections>
                 <outlet property="monitorBrowser" destination="hqs-rY-gCo" id="lMG-nJ-FD0"/>
-                <outlet property="notificationButton" destination="STQ-ZN-sV0" id="Uj1-qL-UKF"/>
                 <outlet property="recentlyMonitoredView" destination="sWd-dy-ex5" id="cYT-oY-9zn"/>
                 <outlet property="tableView" destination="rLG-mj-xHD" id="T4W-iw-vY7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -33,11 +30,12 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgU-9F-iM2">
                                     <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKi-zm-fKF" customClass="CustomIconButton">
-                                            <rect key="frame" x="0.0" y="0.0" width="16" height="44"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKi-zm-fKF">
+                                            <rect key="frame" x="0.0" y="0.0" width="72" height="44"/>
+                                            <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
                                             <inset key="imageEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                            <state key="normal" image="ic_nav_menu_white">
-                                                <color key="titleColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Back">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
@@ -50,34 +48,16 @@
                                                     <size key="value" width="0.5" height="0.5"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="backButtonClick:" destination="-1" eventType="touchUpInside" id="KaG-vA-TjU"/>
+                                            </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voc-vN-WbT">
-                                            <rect key="frame" x="169" y="8.5" width="76" height="27"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="File Monitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voc-vN-WbT">
+                                            <rect key="frame" x="149.5" y="8.5" width="115" height="27"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STQ-ZN-sV0" customClass="CustomIconButton">
-                                            <rect key="frame" x="398" y="0.0" width="16" height="44"/>
-                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
-                                            <state key="normal" image="ic_nav_notification with red">
-                                                <color key="titleColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
-                                                    <integer key="value" value="1"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="iconContentMode">
-                                                    <integer key="value" value="2"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="size" keyPath="iconSizePersent">
-                                                    <size key="value" width="0.5" height="0.5"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                        </button>
-                                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="RYw-rc-yXK">
-                                            <rect key="frame" x="378" y="12" width="20" height="20"/>
-                                        </activityIndicatorView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-qG-2bs">
                                             <rect key="frame" x="0.0" y="42" width="414" height="2"/>
                                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -89,24 +69,19 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="uKi-zm-fKF" secondAttribute="bottom" id="Bzy-Kt-Tau"/>
-                                        <constraint firstAttribute="trailing" secondItem="STQ-ZN-sV0" secondAttribute="trailing" id="Him-YF-Gcd"/>
                                         <constraint firstItem="voc-vN-WbT" firstAttribute="centerX" secondItem="XgU-9F-iM2" secondAttribute="centerX" id="MYE-nc-Oya"/>
                                         <constraint firstAttribute="height" constant="44" id="NwO-5x-rxE"/>
-                                        <constraint firstItem="RYw-rc-yXK" firstAttribute="centerY" secondItem="STQ-ZN-sV0" secondAttribute="centerY" id="P4r-DN-sLj"/>
                                         <constraint firstItem="uKi-zm-fKF" firstAttribute="leading" secondItem="XgU-9F-iM2" secondAttribute="leading" id="PPO-wB-qsQ"/>
                                         <constraint firstItem="voc-vN-WbT" firstAttribute="centerY" secondItem="XgU-9F-iM2" secondAttribute="centerY" id="TtY-Hy-yK4"/>
                                         <constraint firstItem="a9e-qG-2bs" firstAttribute="leading" secondItem="XgU-9F-iM2" secondAttribute="leading" id="afF-Em-9gp"/>
                                         <constraint firstItem="uKi-zm-fKF" firstAttribute="top" secondItem="XgU-9F-iM2" secondAttribute="top" id="cA9-WJ-dcU"/>
-                                        <constraint firstAttribute="trailing" secondItem="RYw-rc-yXK" secondAttribute="trailing" constant="16" id="h4e-Sm-SHp"/>
                                         <constraint firstAttribute="trailing" secondItem="a9e-qG-2bs" secondAttribute="trailing" id="oyj-dp-cGt"/>
-                                        <constraint firstItem="STQ-ZN-sV0" firstAttribute="top" secondItem="XgU-9F-iM2" secondAttribute="top" id="p3G-Rl-QyB"/>
                                         <constraint firstAttribute="bottom" secondItem="a9e-qG-2bs" secondAttribute="bottom" id="pcj-dt-8mO"/>
                                         <constraint firstItem="uKi-zm-fKF" firstAttribute="centerY" secondItem="XgU-9F-iM2" secondAttribute="centerY" id="pjD-PO-hx6"/>
-                                        <constraint firstAttribute="bottom" secondItem="STQ-ZN-sV0" secondAttribute="bottom" id="qnz-aQ-1nL"/>
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="XgU-9F-iM2" secondAttribute="trailing" id="Egs-c0-l04"/>
                                 <constraint firstItem="XgU-9F-iM2" firstAttribute="leading" secondItem="tnC-vK-2pX" secondAttribute="leading" id="NFf-CK-2PV"/>
@@ -172,10 +147,7 @@
                 <constraint firstAttribute="trailing" secondItem="niL-qI-OeQ" secondAttribute="trailing" id="vlR-uU-MfZ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="133" y="103"/>
         </view>
     </objects>
-    <resources>
-        <image name="ic_nav_menu_white" width="16" height="16"/>
-        <image name="ic_nav_notification with red" width="16" height="16"/>
-    </resources>
 </document>

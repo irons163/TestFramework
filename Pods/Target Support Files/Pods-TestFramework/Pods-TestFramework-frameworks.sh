@@ -161,6 +161,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRCommonTools/IRCommonTools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework"
@@ -172,6 +173,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRCommonTools/IRCommonTools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRDataPicker/IRDataPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework"

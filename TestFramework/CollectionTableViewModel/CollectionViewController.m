@@ -14,16 +14,11 @@
 #import "CollectionBrowser.h"
 
 @interface CollectionViewController ()<UITableViewDelegate>
-{
-    __weak IBOutlet UIActivityIndicatorView *loadingIcon;
-}
-@property (weak, nonatomic) IBOutlet UIButton *notificationButton;
 @property (weak, nonatomic) IBOutlet CollectionBrowser *monitorBrowser;
 @property (weak, nonatomic) IBOutlet UIView *recentlyMonitoredView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-- (IBAction)menuButtonClick:(id)sender;
-- (IBAction)notificationButtonClick:(id)sender;
+- (IBAction)backButtonClick:(id)sender;
 @end
 
 @implementation CollectionViewController {
@@ -32,9 +27,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-//    self.recentlyMonitoredView.hidden = YES;
-//    self.recentlyMonitoredViewHeight.constant = 170;
     
     viewModel = [[MonitorViewModel alloc] initWithTableView:self.tableView];
     viewModel.currentFolder = [FolderFactory createFolderWithDetph:3];
@@ -48,7 +40,6 @@
     [self reloadData];
     
     [self setupMonitorBrowser];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReloadOrgsNotification:) name:DidReloadOrgsNotificationName object:nil];
 }
 
 - (void)dealloc
@@ -76,8 +67,6 @@
 }
 
 - (void)setupMonitorBrowser {
-    // TODO, Here just demo.
-    //    dispatch_async(dispatch_get_main_queue(), ^{
     NSMutableArray *monitors = [NSMutableArray array];
     for (Folder *folder in self->viewModel.currentFolder.childFolders) {
         MonitorableFolderClass *monitorableFolder = [[MonitorableFolderClass alloc] init];
@@ -99,21 +88,16 @@
     } else {
         self.recentlyMonitoredView.hidden = YES;
     }
-    //    });
 }
 
 - (void)showLoading:(BOOL)isShow
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         if (isShow) {
-            self.notificationButton.hidden = YES;
             self.tableView.hidden = YES;
-            [self->loadingIcon startAnimating];
             self.view.userInteractionEnabled = NO;
         }else{
-            self.notificationButton.hidden = NO;
             self.tableView.hidden = NO;
-            [self->loadingIcon stopAnimating];
             self.view.userInteractionEnabled = YES;
         }
     });
@@ -150,11 +134,8 @@
 }
 
 #pragma mark - IBAction
-- (IBAction)menuButtonClick:(id)sender {
-    
-}
-
-- (IBAction)notificationButtonClick:(id)sender {
+- (IBAction)backButtonClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - NSNotification

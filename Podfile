@@ -7,7 +7,7 @@ target 'TestFramework' do
 
   # Pods for TestFramework
   pod 'IRTabbedPageViewController'
-#  pod 'IRCollectionTableViewModel'
+  pod 'IRCollectionTableViewModel'
   pod 'IRDataPicker'
   pod 'IRPopupMenu'
   pod 'IRCommonTools'

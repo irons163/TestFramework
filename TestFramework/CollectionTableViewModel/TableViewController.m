@@ -13,6 +13,8 @@
 @interface TableViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)backButtonClick:(id)sender;
+
 @end
 
 @implementation TableViewController {
@@ -49,6 +51,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+#pragma mark - IBAction
+- (IBAction)backButtonClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

@@ -1,4 +1,5 @@
 PODS:
+  - IRCollectionTableViewModel (1.0.1)
   - IRCommonTools (1.0.0)
   - IRDataPicker (1.0.0)
   - IRFFMpeg (4.2.19):
@@ -14,6 +15,7 @@ PODS:
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - IRCollectionTableViewModel
   - IRCommonTools
   - IRDataPicker
   - IRMusicPlayer
@@ -24,6 +26,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - IRCollectionTableViewModel
     - IRCommonTools
     - IRDataPicker
     - IRFFMpeg
@@ -35,6 +38,7 @@ SPEC REPOS:
     - Masonry
 
 SPEC CHECKSUMS:
+  IRCollectionTableViewModel: 46af7fe12b374b004f760125147e1ca0a5c9946a
   IRCommonTools: 8981dddc776a381c2b8758a015ec4b1896f92076
   IRDataPicker: 34474d6a852a91b91fdc1bde88f23a2ccd104807
   IRFFMpeg: 50e159994f9c7c1136b19fc1dea96b4c903b1c9c
@@ -45,6 +49,6 @@ SPEC CHECKSUMS:
   IRTabbedPageViewController: c384cad4049b97fcf23641f0154be80e433f704d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 6fa74a7a1fa6928c43cab331778456ac83f1ba99
+PODFILE CHECKSUM: cd379a6c5ff0a8b7115ac5941f643159f4eaf609
 
-COCOAPODS: 1.8.0.beta.2
+COCOAPODS: 1.8.4
